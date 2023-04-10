@@ -55,11 +55,6 @@ public struct Buffer {
 }
 public struct Byte {
 }
-public class MDevice {
-  @objc deinit
-  public init()
-  public func loadModel(assetUrl: Foundation.URL)
-}
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
 }

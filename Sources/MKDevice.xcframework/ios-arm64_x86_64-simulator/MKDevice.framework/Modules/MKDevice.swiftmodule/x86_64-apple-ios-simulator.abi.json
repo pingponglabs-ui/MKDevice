@@ -514,67 +514,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "MDevice",
-        "printedName": "MDevice",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MDevice",
-                "printedName": "MKDevice.MDevice",
-                "usr": "s:8MKDevice7MDeviceC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8MKDevice7MDeviceCACycfc",
-            "mangledName": "$s8MKDevice7MDeviceCACycfc",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "loadModel",
-            "printedName": "loadModel(assetUrl:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice7MDeviceC9loadModel8assetUrly10Foundation3URLV_tF",
-            "mangledName": "$s8MKDevice7MDeviceC9loadModel8assetUrly10Foundation3URLV_tF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:8MKDevice7MDeviceC",
-        "mangledName": "$s8MKDevice7MDeviceC",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
@@ -2234,119 +2173,119 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 3434,
+      "offset": 3428,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4767,
+      "offset": 4761,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4793,
+      "offset": 4787,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4823,
+      "offset": 4817,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7393,
+      "offset": 7387,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12533,
+      "offset": 12527,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 20745,
+      "offset": 20739,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 20937,
+      "offset": 20931,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21130,
+      "offset": 21124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21302,
+      "offset": 21296,
       "length": 5,
       "value": "0.067"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21316,
+      "offset": 21310,
       "length": 5,
       "value": "0.729"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21329,
+      "offset": 21323,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21342,
+      "offset": 21336,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21387,
+      "offset": 21381,
       "length": 5,
       "value": "0.071"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21401,
+      "offset": 21395,
       "length": 5,
       "value": "0.195"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21414,
+      "offset": 21408,
       "length": 5,
       "value": "0.213"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21428,
+      "offset": 21422,
       "length": 1,
       "value": "1"
     },
