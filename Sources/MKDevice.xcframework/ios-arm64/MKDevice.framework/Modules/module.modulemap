@@ -1,0 +1,11 @@
+framework module MKDevice {
+  umbrella header "MKDevice.h"
+
+  export *
+  module * { export * }
+}
+
+module MKDevice.Swift {
+  header "MKDevice-Swift.h"
+  requires objc
+}

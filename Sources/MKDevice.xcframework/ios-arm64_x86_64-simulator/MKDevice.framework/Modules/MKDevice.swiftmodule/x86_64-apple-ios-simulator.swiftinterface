@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MKDevice
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Combine
+import Foundation
+@_exported import MKDevice
+import MetalKit
+import ModelIO
+import SceneKit
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import simd
+extension SwiftUI.Color {
+  public static let green_l: SwiftUI.Color
+  public static let green_d: SwiftUI.Color
+  public static let myCustomColor3: SwiftUI.Color
+}
+extension Swift.SIMD4 where Scalar == Swift.Float {
+  public static let green_l: simd.float4
+  public static let green_d: simd.float4
+  public static let myCustomColor3: SwiftUI.Color
+}
+public class MetalViewModel : Foundation.ObservableObject {
+  public init()
+  public func updateView()
+  public func setupView(frame: CoreFoundation.CGRect)
+  public var tools: [Swift.String] {
+    get
+  }
+  public var index: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var prop: MKDevice.UBuffer {
+    get
+    set(newVal)
+  }
+  public func updateBuffer()
+  public var mView: UIKit.UIView {
+    get
+  }
+  public func draw()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public struct VertexData {
+}
+public struct PPState {
+}
+public struct Buffer {
+}
+public struct Byte {
+}
+public class MDevice {
+  @objc deinit
+  public init()
+  public func loadModel(assetUrl: Foundation.URL)
+}
+extension Swift.SIMD2 where Scalar == Swift.Float {
+  public func convertCoord() -> simd.float2
+}
+extension Metal.MTLRenderCommandEncoder {
+  public func setVertexValue<T>(_ value: T, at index: Swift.Int)
+  public func setVertexValue<T>(_ value: [T], at index: Swift.Int)
+  public func setFragmentValue<T>(_ value: T, at index: Swift.Int)
+  public func setFragmentValue<T>(_ value: [T], at index: Swift.Int)
+  public func setVertexTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
+  public func setVertexTextures(_ textures: Metal.MTLTexture?..., startingAt startIndex: Swift.Int = 0)
+  public func setFragmentTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
+}
+extension UIKit.UIColor {
+  public static let green_l: UIKit.UIColor
+  public static let green_d: UIKit.UIColor
+}
+extension UIKit.UIColor {
+  public var r: Swift.Double {
+    get
+  }
+  public var g: Swift.Double {
+    get
+  }
+  public var b: Swift.Double {
+    get
+  }
+  public var a: Swift.Double {
+    get
+  }
+}
+public struct UBuffer : Swift.Equatable {
+  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
+}
+public struct MTLRenderer {
+  public init()
+}
