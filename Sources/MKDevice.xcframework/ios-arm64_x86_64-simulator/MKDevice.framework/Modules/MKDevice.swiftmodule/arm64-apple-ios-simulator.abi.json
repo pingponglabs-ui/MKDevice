@@ -2173,119 +2173,119 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 3428,
+      "offset": 3552,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4761,
+      "offset": 4885,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4787,
+      "offset": 4911,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "Array",
-      "offset": 4817,
+      "offset": 4941,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 7387,
+      "offset": 7511,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 12527,
+      "offset": 12651,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 20739,
+      "offset": 20863,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 20931,
+      "offset": 21055,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21124,
+      "offset": 21248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21296,
+      "offset": 21420,
       "length": 5,
       "value": "0.067"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21310,
+      "offset": 21434,
       "length": 5,
       "value": "0.729"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21323,
+      "offset": 21447,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21336,
+      "offset": 21460,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21381,
+      "offset": 21505,
       "length": 5,
       "value": "0.071"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21395,
+      "offset": 21519,
       "length": 5,
       "value": "0.195"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 21408,
+      "offset": 21532,
       "length": 5,
       "value": "0.213"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 21422,
+      "offset": 21546,
       "length": 1,
       "value": "1"
     },
