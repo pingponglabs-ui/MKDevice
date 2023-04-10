@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lUF4jvFv26CPnKAX2MLXw2O71as=
+		OctQl7+2vwFRti+0QG9wu3oSn2c=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		m9wbnFgi7ma59AdEaeQVYVfYAlM=
+		etaUnfYipNTe4I1dlkouGxPX7rk=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,27 +30,15 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		m9wbnFgi7ma59AdEaeQVYVfYAlM=
+		etaUnfYipNTe4I1dlkouGxPX7rk=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4Xu0KNIigb6rxK0LlRlNbnDy6C0=
+		WKMfw+Vo6Z0sCZaaBebhlWHw9RE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		sWRAs6QNmf7N1OpfxAcQpniR8N8=
-		</data>
-		<key>default.metallib</key>
-		<data>
-		SNHq28g0jgRn+H1Vqy7RYBBazP8=
-		</data>
-		<key>plane.mtl</key>
-		<data>
-		XXP1YWwX20lP9RJ0lfnCeyDTbpk=
-		</data>
-		<key>plane.obj</key>
-		<data>
-		DHcJTN2Xu2sWndl9cXPrQGEy/cw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -73,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			njzTP2fbyH4vALjJzAoYyVcgZLQyzPXyKVXgcAxrce4=
+			xnF5OkTtTB6KgYwTZgX2Qj08HHGUMh1NIDWZR7Do5Ww=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRgAKy5+G13f7gjjysBKm0eK84Df8NhdkPDs2LGAOEE=
+			yFRrHK9FXZ0K18aKsydhTfHHyTHbkVQkFmKBqtmkpbs=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -94,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRgAKy5+G13f7gjjysBKm0eK84Df8NhdkPDs2LGAOEE=
+			yFRrHK9FXZ0K18aKsydhTfHHyTHbkVQkFmKBqtmkpbs=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hS+LYpcFFyJp1M9RChoZ1KLri6AdbQFTbHSYtTp25YU=
+			zfKp0mFcXXl9wqSgpZ1gLMdujAXAap4gwBTffGN6hRM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -109,27 +97,6 @@
 			<key>hash2</key>
 			<data>
 			I7g7zIodq3GBuTXaX+sczy6b6FrPzPyafyv+Ez+HnvM=
-			</data>
-		</dict>
-		<key>default.metallib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0LJRHWPyuteH2vHWC0N7G6SoXzk/NVLqSOCLUcjss/0=
-			</data>
-		</dict>
-		<key>plane.mtl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4jtSeXd+o7y66zoMdI+VpR0dw7zOHbjANak2FRLnOmY=
-			</data>
-		</dict>
-		<key>plane.obj</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QH73A4mJpeOD6jRMUfwC1lEiaH6yBcMULtcWx0giPHA=
 			</data>
 		</dict>
 	</dict>

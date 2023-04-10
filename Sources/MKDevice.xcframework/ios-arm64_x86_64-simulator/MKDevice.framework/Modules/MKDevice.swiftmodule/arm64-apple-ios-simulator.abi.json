@@ -16,6 +16,88 @@
       },
       {
         "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VertexData",
+        "printedName": "VertexData",
+        "declKind": "Struct",
+        "usr": "s:8MKDevice10VertexDataV",
+        "mangledName": "$s8MKDevice10VertexDataV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PPState",
+        "printedName": "PPState",
+        "declKind": "Struct",
+        "usr": "s:8MKDevice7PPStateV",
+        "mangledName": "$s8MKDevice7PPStateV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Buffer",
+        "printedName": "Buffer",
+        "declKind": "Struct",
+        "usr": "s:8MKDevice6BufferV",
+        "mangledName": "$s8MKDevice6BufferV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Byte",
+        "printedName": "Byte",
+        "declKind": "Struct",
+        "usr": "s:8MKDevice4ByteV",
+        "mangledName": "$s8MKDevice4ByteV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "simd",
         "printedName": "simd",
         "declKind": "Import",
@@ -50,6 +132,26 @@
         "name": "MetalViewModel",
         "printedName": "MetalViewModel",
         "children": [
+          {
+            "kind": "Function",
+            "name": "viewStart",
+            "printedName": "viewStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC9viewStartyyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC9viewStartyyF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -256,8 +358,89 @@
           },
           {
             "kind": "Var",
-            "name": "prop",
-            "printedName": "prop",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniforms",
+            "printedName": "uniforms",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -267,8 +450,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC4propAA7UBufferVvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC4propAA7UBufferVvp",
+            "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
             "moduleName": "MKDevice",
             "declAttributes": [
               "AccessControl"
@@ -287,8 +470,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC4propAA7UBufferVvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC4propAA7UBufferVvg",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
                 "moduleName": "MKDevice",
                 "accessorKind": "get"
               },
@@ -310,8 +493,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC4propAA7UBufferVvs",
-                "mangledName": "$s8MKDevice14MetalViewModelC4propAA7UBufferVvs",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
                 "moduleName": "MKDevice",
                 "accessorKind": "set"
               },
@@ -327,8 +510,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC4propAA7UBufferVvM",
-                "mangledName": "$s8MKDevice14MetalViewModelC4propAA7UBufferVvM",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
                 "moduleName": "MKDevice",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -354,6 +537,87 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -460,71 +724,6 @@
       },
       {
         "kind": "Import",
-        "name": "SceneKit",
-        "printedName": "SceneKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VertexData",
-        "printedName": "VertexData",
-        "declKind": "Struct",
-        "usr": "s:8MKDevice10VertexDataV",
-        "mangledName": "$s8MKDevice10VertexDataV",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PPState",
-        "printedName": "PPState",
-        "declKind": "Struct",
-        "usr": "s:8MKDevice7PPStateV",
-        "mangledName": "$s8MKDevice7PPStateV",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Buffer",
-        "printedName": "Buffer",
-        "declKind": "Struct",
-        "usr": "s:8MKDevice6BufferV",
-        "mangledName": "$s8MKDevice6BufferV",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Byte",
-        "printedName": "Byte",
-        "declKind": "Struct",
-        "usr": "s:8MKDevice4ByteV",
-        "mangledName": "$s8MKDevice4ByteV",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -605,6 +804,87 @@
         "printedName": "MTLRenderer",
         "children": [
           {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11MTLRendererV5imageSo7UIImageCvp",
+            "mangledName": "$s8MKDevice11MTLRendererV5imageSo7UIImageCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11MTLRendererV5imageSo7UIImageCvg",
+                "mangledName": "$s8MKDevice11MTLRendererV5imageSo7UIImageCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11MTLRendererV5imageSo7UIImageCvs",
+                "mangledName": "$s8MKDevice11MTLRendererV5imageSo7UIImageCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11MTLRendererV5imageSo7UIImageCvM",
+                "mangledName": "$s8MKDevice11MTLRendererV5imageSo7UIImageCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -633,581 +913,6 @@
         "moduleName": "MKDevice",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Color",
-        "printedName": "Color",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "green_l",
-            "printedName": "green_l",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_lACvpZ",
-            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_lACvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_lACvgZ",
-                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_lACvgZ",
-                "moduleName": "MKDevice",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "green_d",
-            "printedName": "green_d",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_dACvpZ",
-            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_dACvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_dACvgZ",
-                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_dACvgZ",
-                "moduleName": "MKDevice",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "myCustomColor3",
-            "printedName": "myCustomColor3",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvpZ",
-            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvgZ",
-                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvgZ",
-                "moduleName": "MKDevice",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI5ColorV",
-        "mangledName": "$s7SwiftUI5ColorV",
-        "moduleName": "SwiftUI",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Frozen",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ShapeStyle",
-            "printedName": "ShapeStyle",
-            "usr": "s:7SwiftUI10ShapeStyleP",
-            "mangledName": "$s7SwiftUI10ShapeStyleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SIMD4",
-        "printedName": "SIMD4",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "green_l",
-            "printedName": "green_l",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD4",
-                "printedName": "Swift.SIMD4<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD4V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvpZ",
-            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD4",
-                    "printedName": "Swift.SIMD4<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD4V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvgZ",
-                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvgZ",
-                "moduleName": "MKDevice",
-                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
-                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "green_d",
-            "printedName": "green_d",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD4",
-                "printedName": "Swift.SIMD4<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD4V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvpZ",
-            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD4",
-                    "printedName": "Swift.SIMD4<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD4V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvgZ",
-                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvgZ",
-                "moduleName": "MKDevice",
-                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
-                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "myCustomColor3",
-            "printedName": "myCustomColor3",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvpZ",
-            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvpZ",
-            "moduleName": "MKDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvgZ",
-                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvgZ",
-                "moduleName": "MKDevice",
-                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
-                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:s5SIMD4V",
-        "mangledName": "$ss5SIMD4V",
-        "moduleName": "Swift",
-        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
-        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
-        "declAttributes": [
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "SIMD",
-            "printedName": "SIMD",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "MaskStorage",
-                "printedName": "MaskStorage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD4",
-                    "printedName": "Swift.SIMD4<τ_0_0.SIMDMaskScalar>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DependentMember",
-                        "printedName": "τ_0_0.SIMDMaskScalar"
-                      }
-                    ],
-                    "usr": "s:s5SIMD4V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s4SIMDP",
-            "mangledName": "$ss4SIMDP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByArrayLiteral",
-            "printedName": "ExpressibleByArrayLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ArrayLiteralElement",
-                "printedName": "ArrayLiteralElement",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s25ExpressibleByArrayLiteralP",
-            "mangledName": "$ss25ExpressibleByArrayLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SIMDStorage",
-            "printedName": "SIMDStorage",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Scalar",
-                "printedName": "Scalar",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s11SIMDStorageP",
-            "mangledName": "$ss11SIMDStorageP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
         ]
       },
       {
@@ -2039,11 +1744,705 @@
             "mangledName": "$ss26_ExpressibleByColorLiteralP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Color",
+        "printedName": "Color",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "green_l",
+            "printedName": "green_l",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_lACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_lACvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_lACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_lACvgZ",
+                "moduleName": "MKDevice",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "green_d",
+            "printedName": "green_d",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_dACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_dACvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV8MKDeviceE7green_dACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE7green_dACvgZ",
+                "moduleName": "MKDevice",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "myCustomColor3",
+            "printedName": "myCustomColor3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvpZ",
+            "mangledName": "$s7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvgZ",
+                "mangledName": "$s7SwiftUI5ColorV8MKDeviceE14myCustomColor3ACvgZ",
+                "moduleName": "MKDevice",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ColorV",
+        "mangledName": "$s7SwiftUI5ColorV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SIMD4",
+        "printedName": "SIMD4",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "green_l",
+            "printedName": "green_l",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD4",
+                "printedName": "Swift.SIMD4<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD4V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvpZ",
+            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4",
+                    "printedName": "Swift.SIMD4<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD4V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvgZ",
+                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_lABySfGvgZ",
+                "moduleName": "MKDevice",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
+                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "green_d",
+            "printedName": "green_d",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD4",
+                "printedName": "Swift.SIMD4<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD4V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvpZ",
+            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4",
+                    "printedName": "Swift.SIMD4<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD4V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvgZ",
+                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE7green_dABySfGvgZ",
+                "moduleName": "MKDevice",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
+                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "myCustomColor3",
+            "printedName": "myCustomColor3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvpZ",
+            "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvpZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvgZ",
+                "mangledName": "$ss5SIMD4V8MKDeviceSfRszrlE14myCustomColor37SwiftUI5ColorVvgZ",
+                "moduleName": "MKDevice",
+                "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
+                "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s5SIMD4V",
+        "mangledName": "$ss5SIMD4V",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
+        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SIMD",
+            "printedName": "SIMD",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "MaskStorage",
+                "printedName": "MaskStorage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4",
+                    "printedName": "Swift.SIMD4<τ_0_0.SIMDMaskScalar>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.SIMDMaskScalar"
+                      }
+                    ],
+                    "usr": "s:s5SIMD4V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s4SIMDP",
+            "mangledName": "$ss4SIMDP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDStorage",
+            "printedName": "SIMDStorage",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Scalar",
+                "printedName": "Scalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s11SIMDStorageP",
+            "mangledName": "$ss11SIMDStorageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "Array",
+      "offset": 3625,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "Array",
+      "offset": 4958,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "Array",
+      "offset": 4984,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "Array",
+      "offset": 5014,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 7584,
+      "length": 14,
+      "value": "\"vertexShader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 12724,
+      "length": 15,
+      "value": "\"vertex_shader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21493,
+      "length": 5,
+      "value": "0.067"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21507,
+      "length": 5,
+      "value": "0.729"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21520,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21533,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21578,
+      "length": 5,
+      "value": "0.071"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21592,
+      "length": 5,
+      "value": "0.195"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 21605,
+      "length": 5,
+      "value": "0.213"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21619,
+      "length": 1,
+      "value": "1"
+    },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
       "kind": "FloatLiteral",
@@ -2171,226 +2570,107 @@
       "value": "\"namedColor\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "Array",
-      "offset": 3625,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "Array",
-      "offset": 4958,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "Array",
-      "offset": 4984,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "Array",
-      "offset": 5014,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 7584,
-      "length": 14,
-      "value": "\"vertexShader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 12724,
-      "length": 15,
-      "value": "\"vertex_shader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20936,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21128,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21321,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21493,
-      "length": 5,
-      "value": "0.067"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21507,
-      "length": 5,
-      "value": "0.729"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21520,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21533,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21578,
-      "length": 5,
-      "value": "0.071"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21592,
-      "length": 5,
-      "value": "0.195"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 21605,
-      "length": 5,
-      "value": "0.213"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21619,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 318,
+      "offset": 313,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 349,
+      "offset": 344,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 378,
+      "offset": 373,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 408,
+      "offset": 403,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 465,
+      "offset": 460,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 469,
+      "offset": 464,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 501,
+      "offset": 496,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 525,
+      "offset": 517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 621,
+      "offset": 613,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 1363,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 1389,
       "length": 14,
       "value": "\"model_vertex\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 920,
+      "offset": 1437,
       "length": 67,
       "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1023,
+      "offset": 1540,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 1610,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1356,
+      "offset": 1911,
       "length": 41,
       "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
     }

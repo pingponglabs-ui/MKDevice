@@ -14,39 +14,6 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import simd
-extension SwiftUI.Color {
-  public static let green_l: SwiftUI.Color
-  public static let green_d: SwiftUI.Color
-  public static let myCustomColor3: SwiftUI.Color
-}
-extension Swift.SIMD4 where Scalar == Swift.Float {
-  public static let green_l: simd.float4
-  public static let green_d: simd.float4
-  public static let myCustomColor3: SwiftUI.Color
-}
-public class MetalViewModel : Foundation.ObservableObject {
-  public init()
-  public func updateView()
-  public func setupView(frame: CoreFoundation.CGRect)
-  public var tools: [Swift.String] {
-    get
-  }
-  public var index: Swift.Int {
-    get
-    set(newVal)
-  }
-  public var prop: MKDevice.UBuffer {
-    get
-    set(newVal)
-  }
-  public func updateBuffer()
-  public var mView: UIKit.UIView {
-    get
-  }
-  public func draw()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
 public struct VertexData {
 }
 public struct PPState {
@@ -85,9 +52,55 @@ extension UIKit.UIColor {
     get
   }
 }
+extension SwiftUI.Color {
+  public static let green_l: SwiftUI.Color
+  public static let green_d: SwiftUI.Color
+  public static let myCustomColor3: SwiftUI.Color
+}
+extension Swift.SIMD4 where Scalar == Swift.Float {
+  public static let green_l: simd.float4
+  public static let green_d: simd.float4
+  public static let myCustomColor3: SwiftUI.Color
+}
+public class MetalViewModel : Foundation.ObservableObject {
+  public func viewStart()
+  public init()
+  public func updateView()
+  public func setupView(frame: CoreFoundation.CGRect)
+  public var tools: [Swift.String] {
+    get
+  }
+  public var index: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var color: UIKit.UIColor {
+    get
+    set(newVal)
+  }
+  public var uniforms: MKDevice.UBuffer {
+    get
+    set(newVal)
+  }
+  public func updateBuffer()
+  public var image: UIKit.UIImage {
+    get
+    set(newVal)
+  }
+  public var mView: UIKit.UIView {
+    get
+  }
+  public func draw()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
 public struct UBuffer : Swift.Equatable {
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
 public struct MTLRenderer {
+  public var image: UIKit.UIImage {
+    get
+    set(newVal)
+  }
   public init()
 }
