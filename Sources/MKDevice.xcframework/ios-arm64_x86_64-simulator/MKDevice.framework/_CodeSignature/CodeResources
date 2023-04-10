@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kXX+AkmHBKq/RDiRbN+lrZ+RpJI=
+		lUF4jvFv26CPnKAX2MLXw2O71as=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kXX+AkmHBKq/RDiRbN+lrZ+RpJI=
+		lUF4jvFv26CPnKAX2MLXw2O71as=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -59,6 +59,18 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		sWRAs6QNmf7N1OpfxAcQpniR8N8=
+		</data>
+		<key>default.metallib</key>
+		<data>
+		C0Ylxr66vHZkr4wLN3RgwfvDHN8=
+		</data>
+		<key>plane.mtl</key>
+		<data>
+		XXP1YWwX20lP9RJ0lfnCeyDTbpk=
+		</data>
+		<key>plane.obj</key>
+		<data>
+		DHcJTN2Xu2sWndl9cXPrQGEy/cw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -81,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xuf4HcBRRxdDBNvU7To1igfFGWPhc8fs3WDM0BwUecQ=
+			njzTP2fbyH4vALjJzAoYyVcgZLQyzPXyKVXgcAxrce4=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xuf4HcBRRxdDBNvU7To1igfFGWPhc8fs3WDM0BwUecQ=
+			njzTP2fbyH4vALjJzAoYyVcgZLQyzPXyKVXgcAxrce4=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,6 +164,27 @@
 			<key>hash2</key>
 			<data>
 			I7g7zIodq3GBuTXaX+sczy6b6FrPzPyafyv+Ez+HnvM=
+			</data>
+		</dict>
+		<key>default.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y86RtcY0WhNnWUibf/xsgevWHtPTXDes1wSPrqgyRvw=
+			</data>
+		</dict>
+		<key>plane.mtl</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4jtSeXd+o7y66zoMdI+VpR0dw7zOHbjANak2FRLnOmY=
+			</data>
+		</dict>
+		<key>plane.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QH73A4mJpeOD6jRMUfwC1lEiaH6yBcMULtcWx0giPHA=
 			</data>
 		</dict>
 	</dict>
