@@ -6,23 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
         "declKind": "Import",
@@ -84,632 +67,6 @@
         "moduleName": "MKDevice",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "simd",
-        "printedName": "simd",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetalViewModel",
-        "printedName": "MetalViewModel",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "viewStart",
-            "printedName": "viewStart()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC9viewStartyyF",
-            "mangledName": "$s8MKDevice14MetalViewModelC9viewStartyyF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetalViewModel",
-                "printedName": "MKDevice.MetalViewModel",
-                "usr": "s:8MKDevice14MetalViewModelC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8MKDevice14MetalViewModelCACycfc",
-            "mangledName": "$s8MKDevice14MetalViewModelCACycfc",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "updateView",
-            "printedName": "updateView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC06updateC0yyF",
-            "mangledName": "$s8MKDevice14MetalViewModelC06updateC0yyF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setupView",
-            "printedName": "setupView(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC05setupC05frameySo6CGRectV_tF",
-            "mangledName": "$s8MKDevice14MetalViewModelC05setupC05frameySo6CGRectV_tF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "tools",
-            "printedName": "tools",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC5toolsSaySSGvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC5toolsSaySSGvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5toolsSaySSGvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC5toolsSaySSGvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "index",
-            "printedName": "index",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC5indexSivp",
-            "mangledName": "$s8MKDevice14MetalViewModelC5indexSivp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5indexSivg",
-                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5indexSivs",
-                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5indexSivM",
-                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "color",
-            "printedName": "color",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
-                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
-                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uniforms",
-            "printedName": "uniforms",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UBuffer",
-                "printedName": "MKDevice.UBuffer",
-                "usr": "s:8MKDevice7UBufferV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UBuffer",
-                    "printedName": "MKDevice.UBuffer",
-                    "usr": "s:8MKDevice7UBufferV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UBuffer",
-                    "printedName": "MKDevice.UBuffer",
-                    "usr": "s:8MKDevice7UBufferV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
-                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
-                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "updateBuffer",
-            "printedName": "updateBuffer()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC12updateBufferyyF",
-            "mangledName": "$s8MKDevice14MetalViewModelC12updateBufferyyF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
-                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
-                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "mView",
-            "printedName": "mView",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice14MetalViewModelC01mC0So6UIViewCvp",
-            "mangledName": "$s8MKDevice14MetalViewModelC01mC0So6UIViewCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice14MetalViewModelC01mC0So6UIViewCvg",
-                "mangledName": "$s8MKDevice14MetalViewModelC01mC0So6UIViewCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "draw",
-            "printedName": "draw()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC4drawyyF",
-            "mangledName": "$s8MKDevice14MetalViewModelC4drawyyF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:8MKDevice14MetalViewModelC",
-        "mangledName": "$s8MKDevice14MetalViewModelC",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
         ]
       },
       {
@@ -1482,8 +839,8 @@
           },
           {
             "kind": "Var",
-            "name": "res",
-            "printedName": "res",
+            "name": "imageRes",
+            "printedName": "imageRes",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1501,8 +858,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvp",
-            "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvp",
+            "usr": "s:8MKDevice7UBufferV8imageRess5SIMD2VySfGvp",
+            "mangledName": "$s8MKDevice7UBufferV8imageRess5SIMD2VySfGvp",
             "moduleName": "MKDevice",
             "declAttributes": [
               "HasStorage",
@@ -1531,8 +888,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvg",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvg",
+                "usr": "s:8MKDevice7UBufferV8imageRess5SIMD2VySfGvg",
+                "mangledName": "$s8MKDevice7UBufferV8imageRess5SIMD2VySfGvg",
                 "moduleName": "MKDevice",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1563,8 +920,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvs",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvs",
+                "usr": "s:8MKDevice7UBufferV8imageRess5SIMD2VySfGvs",
+                "mangledName": "$s8MKDevice7UBufferV8imageRess5SIMD2VySfGvs",
                 "moduleName": "MKDevice",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1581,8 +938,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvM",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvM",
+                "usr": "s:8MKDevice7UBufferV8imageRess5SIMD2VySfGvM",
+                "mangledName": "$s8MKDevice7UBufferV8imageRess5SIMD2VySfGvM",
                 "moduleName": "MKDevice",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2037,6 +1394,649 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MetalViewModel",
+        "printedName": "MetalViewModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewStart",
+            "printedName": "viewStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC9viewStartyyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC9viewStartyyF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalViewModel",
+                "printedName": "MKDevice.MetalViewModel",
+                "usr": "s:8MKDevice14MetalViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MKDevice14MetalViewModelCACycfc",
+            "mangledName": "$s8MKDevice14MetalViewModelCACycfc",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateView",
+            "printedName": "updateView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC06updateC0yyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC06updateC0yyF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupView",
+            "printedName": "setupView(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC05setupC05frameySo6CGRectV_tF",
+            "mangledName": "$s8MKDevice14MetalViewModelC05setupC05frameySo6CGRectV_tF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "tools",
+            "printedName": "tools",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5toolsSaySSGvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5toolsSaySSGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5toolsSaySSGvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5toolsSaySSGvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5indexSivp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5indexSivp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5indexSivg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5indexSivs",
+                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5indexSivM",
+                "mangledName": "$s8MKDevice14MetalViewModelC5indexSivM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC5colorSo7UIColorCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniforms",
+            "printedName": "uniforms",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UBuffer",
+                "printedName": "MKDevice.UBuffer",
+                "usr": "s:8MKDevice7UBufferV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC8uniformsAA7UBufferVvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateBuffer",
+            "printedName": "updateBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC12updateBufferyyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC12updateBufferyyF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
+                "mangledName": "$s8MKDevice14MetalViewModelC5imageSo7UIImageCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mView",
+            "printedName": "mView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice14MetalViewModelC01mC0So6UIViewCvp",
+            "mangledName": "$s8MKDevice14MetalViewModelC01mC0So6UIViewCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice14MetalViewModelC01mC0So6UIViewCvg",
+                "mangledName": "$s8MKDevice14MetalViewModelC01mC0So6UIViewCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice14MetalViewModelC4drawyyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC4drawyyF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8MKDevice14MetalViewModelC",
+        "mangledName": "$s8MKDevice14MetalViewModelC",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
       },
       {
         "kind": "TypeDecl",
@@ -3448,354 +3448,354 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
       "offset": 3625,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
       "offset": 4958,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
       "offset": 4984,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
       "offset": 5014,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "StringLiteral",
       "offset": 7584,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "StringLiteral",
       "offset": 12724,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 20936,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 21128,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 21321,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21493,
       "length": 5,
       "value": "0.067"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21507,
       "length": 5,
       "value": "0.729"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21520,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 21533,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21578,
       "length": 5,
       "value": "0.071"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21592,
       "length": 5,
       "value": "0.195"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
       "offset": 21605,
       "length": 5,
       "value": "0.213"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
       "offset": 21619,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 338,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 374,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 408,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 443,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 515,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 519,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 556,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 582,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 16,
+      "value": "\"final_fragment\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 14,
+      "value": "\"model_vertex\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "Array",
+      "offset": 1161,
+      "length": 67,
+      "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "Array",
+      "offset": 1264,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "Array",
+      "offset": 1635,
+      "length": 41,
+      "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 193,
       "length": 5,
       "value": "0.067"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 207,
       "length": 5,
       "value": "0.729"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 220,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 300,
       "length": 5,
       "value": "0.071"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 314,
       "length": 5,
       "value": "0.195"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 327,
       "length": 5,
       "value": "0.213"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 12,
       "value": "\"namedColor\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 471,
       "length": 5,
       "value": "0.067"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 478,
       "length": 5,
       "value": "0.729"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 485,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "IntegerLiteral",
       "offset": 491,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 529,
       "length": 5,
       "value": "0.071"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 536,
       "length": 5,
       "value": "0.195"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "FloatLiteral",
       "offset": 543,
       "length": 5,
       "value": "0.213"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "IntegerLiteral",
       "offset": 550,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/Utils.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 12,
       "value": "\"namedColor\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 348,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 386,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 422,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 459,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 530,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 534,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 573,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 601,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 697,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 1447,
-      "length": 16,
-      "value": "\"final_fragment\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 1473,
-      "length": 14,
-      "value": "\"model_vertex\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "Array",
-      "offset": 1521,
-      "length": 67,
-      "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "Array",
-      "offset": 1624,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1694,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MKDevice\/MKDevice\/MetalRenderer.swift",
-      "kind": "Array",
-      "offset": 1995,
-      "length": 41,
-      "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
     }
   ]
 }

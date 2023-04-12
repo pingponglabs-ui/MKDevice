@@ -52,15 +52,27 @@ extension UIKit.UIColor {
     get
   }
 }
-extension SwiftUI.Color {
-  public static let green_l: SwiftUI.Color
-  public static let green_d: SwiftUI.Color
-  public static let myCustomColor3: SwiftUI.Color
+public struct UBuffer : Swift.Equatable {
+  public var pos: simd.float2
+  public var scale: simd.float2
+  public var rotation: Swift.Float
+  public var intensity: Swift.Float
+  public var topPos: Swift.Float
+  public var bottomPos: Swift.Float
+  public var leftPos: Swift.Float
+  public var rightPos: Swift.Float
+  public var imageRes: simd.float2
+  public var viewRes: simd.float2
+  public var smoothness: Swift.Float
+  public var debug: Swift.Bool
+  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
-extension Swift.SIMD4 where Scalar == Swift.Float {
-  public static let green_l: simd.float4
-  public static let green_d: simd.float4
-  public static let myCustomColor3: SwiftUI.Color
+public struct MTLRenderer {
+  public var image: UIKit.UIImage {
+    get
+    set(newVal)
+  }
+  public init()
 }
 public class MetalViewModel : Foundation.ObservableObject {
   public func viewStart()
@@ -94,25 +106,13 @@ public class MetalViewModel : Foundation.ObservableObject {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-public struct UBuffer : Swift.Equatable {
-  public var pos: simd.float2
-  public var scale: simd.float2
-  public var rotation: Swift.Float
-  public var intensity: Swift.Float
-  public var topPos: Swift.Float
-  public var bottomPos: Swift.Float
-  public var leftPos: Swift.Float
-  public var rightPos: Swift.Float
-  public var res: simd.float2
-  public var viewRes: simd.float2
-  public var smoothness: Swift.Float
-  public var debug: Swift.Bool
-  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
+extension SwiftUI.Color {
+  public static let green_l: SwiftUI.Color
+  public static let green_d: SwiftUI.Color
+  public static let myCustomColor3: SwiftUI.Color
 }
-public struct MTLRenderer {
-  public var image: UIKit.UIImage {
-    get
-    set(newVal)
-  }
-  public init()
+extension Swift.SIMD4 where Scalar == Swift.Float {
+  public static let green_l: simd.float4
+  public static let green_d: simd.float4
+  public static let myCustomColor3: SwiftUI.Color
 }
