@@ -75,7 +75,7 @@ public struct MTLRenderer {
   public init()
 }
 public class MetalViewModel : Foundation.ObservableObject {
-  public func viewStart()
+  public func addDisplayLink()
   public init()
   public func updateView()
   public func setupView(frame: CoreFoundation.CGRect)

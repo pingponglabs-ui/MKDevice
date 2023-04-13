@@ -1443,8 +1443,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "viewStart",
-            "printedName": "viewStart()",
+            "name": "addDisplayLink",
+            "printedName": "addDisplayLink()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1453,8 +1453,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MKDevice14MetalViewModelC9viewStartyyF",
-            "mangledName": "$s8MKDevice14MetalViewModelC9viewStartyyF",
+            "usr": "s:8MKDevice14MetalViewModelC14addDisplayLinkyyF",
+            "mangledName": "$s8MKDevice14MetalViewModelC14addDisplayLinkyyF",
             "moduleName": "MKDevice",
             "declAttributes": [
               "AccessControl"
