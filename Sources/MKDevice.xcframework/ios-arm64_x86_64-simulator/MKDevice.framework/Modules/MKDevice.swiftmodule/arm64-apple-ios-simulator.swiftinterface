@@ -3,7 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MKDevice
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
-import Combine
+import Accelerate
 import Foundation
 @_exported import MKDevice
 import MetalKit
@@ -14,6 +14,10 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import simd
+@_hasMissingDesignatedInitializers public class MetalViewModel : Foundation.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
 public struct VertexData {
 }
 public struct PPState {
@@ -21,6 +25,10 @@ public struct PPState {
 public struct Buffer {
 }
 public struct Byte {
+}
+@_hasMissingDesignatedInitializers public class MKDevice {
+  @objc deinit
+  public func loadModel(assetUrl: Foundation.URL)
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
@@ -52,67 +60,8 @@ extension UIKit.UIColor {
     get
   }
 }
-public struct UBuffer : Swift.Equatable {
-  public var pos: simd.float2
-  public var scale: simd.float2
-  public var rotation: Swift.Float
-  public var intensity: Swift.Float
-  public var topPos: Swift.Float
-  public var bottomPos: Swift.Float
-  public var leftPos: Swift.Float
-  public var rightPos: Swift.Float
-  public var imageRes: simd.float2
-  public var viewRes: simd.float2
-  public var smoothness: Swift.Float
-  public var debug: Swift.Bool
-  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
-}
-public struct MTLRenderer {
-  public var image: UIKit.UIImage {
-    get
-    set(newVal)
-  }
-  public init()
-}
-public class MetalViewModel : Foundation.ObservableObject {
-  public func addDisplayLink()
-  public init()
-  public func updateView()
-  public func setupView(frame: CoreFoundation.CGRect)
-  public var tools: [Swift.String] {
+extension Metal.MTLTexture {
+  public var cgImage: CoreGraphics.CGImage? {
     get
   }
-  public var index: Swift.Int {
-    get
-    set(newVal)
-  }
-  public var color: UIKit.UIColor {
-    get
-    set(newVal)
-  }
-  public var uniforms: MKDevice.UBuffer {
-    get
-    set(newVal)
-  }
-  public func updateBuffer()
-  public var image: UIKit.UIImage {
-    get
-    set(newVal)
-  }
-  public var mView: UIKit.UIView {
-    get
-  }
-  public func draw()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
-extension SwiftUI.Color {
-  public static let green_l: SwiftUI.Color
-  public static let green_d: SwiftUI.Color
-  public static let myCustomColor3: SwiftUI.Color
-}
-extension Swift.SIMD4 where Scalar == Swift.Float {
-  public static let green_l: simd.float4
-  public static let green_d: simd.float4
-  public static let myCustomColor3: SwiftUI.Color
 }
