@@ -22,6 +22,13 @@
         "moduleName": "MKDevice"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MetalViewModel",
         "printedName": "MetalViewModel",
@@ -166,13 +173,20 @@
       },
       {
         "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "MKDevice",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
       },
       {
         "kind": "Import",
@@ -1262,112 +1276,112 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 328,
+      "offset": 342,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 359,
+      "offset": 373,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 388,
+      "offset": 402,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 418,
+      "offset": 432,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 475,
+      "offset": 489,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 479,
+      "offset": 493,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 511,
+      "offset": 525,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 535,
+      "offset": 549,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 642,
+      "offset": 656,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 875,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 887,
+      "offset": 901,
       "length": 14,
       "value": "\"model_vertex\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1103,
+      "offset": 1117,
       "length": 67,
       "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1206,
+      "offset": 1220,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1238,
+      "offset": 1252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1260,
+      "offset": 1274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1312,
+      "offset": 1326,
       "length": 41,
       "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
     },

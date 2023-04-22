@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Accelerate
+import Combine
 import Foundation
 @_exported import MKDevice
 import MetalKit
