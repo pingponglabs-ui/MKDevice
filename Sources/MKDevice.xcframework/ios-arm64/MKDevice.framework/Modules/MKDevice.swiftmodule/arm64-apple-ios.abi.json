@@ -32,6 +32,29 @@
         "kind": "TypeDecl",
         "name": "MetalViewModel",
         "printedName": "MetalViewModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalViewModel",
+                "printedName": "MKDevice.MetalViewModel",
+                "usr": "s:8MKDevice14MetalViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MKDevice14MetalViewModelCACycfc",
+            "mangledName": "$s8MKDevice14MetalViewModelCACycfc",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Class",
         "usr": "s:8MKDevice14MetalViewModelC",
         "mangledName": "$s8MKDevice14MetalViewModelC",
@@ -39,7 +62,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

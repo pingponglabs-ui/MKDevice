@@ -15,7 +15,8 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import simd
-@_hasMissingDesignatedInitializers public class MetalViewModel : Foundation.ObservableObject {
+public class MetalViewModel : Foundation.ObservableObject {
+  public init()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
