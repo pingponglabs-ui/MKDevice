@@ -4,9 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Accelerate
-import Combine
 import Foundation
-@_exported import MKDevice
 import MetalKit
 import ModelIO
 import SceneKit
@@ -15,30 +13,8 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import simd
-public class MTKModel : Foundation.ObservableObject {
+public class MetalViewModel : Foundation.ObservableObject {
   public init()
-  public func updateView(frame: CoreFoundation.CGRect)
-  public var image: UIKit.UIImage {
-    get
-  }
-  public var index: Swift.Int {
-    get
-    set(newVal)
-  }
-  public var debugMode: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var uniforms: MKDevice.UBuffer {
-    get
-    set(newVal)
-  }
-  public func setImage(uiimage name: UIKit.UIImage)
-  public var mView: MetalKit.MTKView {
-    get
-    set(newVal)
-  }
-  public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -50,20 +26,9 @@ public struct Buffer {
 }
 public struct Byte {
 }
-public struct UBuffer : Swift.Equatable {
-  public var pos: simd.float2
-  public var scale: simd.float2
-  public var rotation: Swift.Float
-  public var intensity: Swift.Float
-  public var topPos: Swift.Float
-  public var bottomPos: Swift.Float
-  public var leftPos: Swift.Float
-  public var rightPos: Swift.Float
-  public var res: simd.float2
-  public var viewRes: simd.float2
-  public var smoothness: Swift.Float
-  public var selected: Swift.Bool
-  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
+@_hasMissingDesignatedInitializers public class MDevice {
+  @objc deinit
+  public func loadModel(assetUrl: Foundation.URL)
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2

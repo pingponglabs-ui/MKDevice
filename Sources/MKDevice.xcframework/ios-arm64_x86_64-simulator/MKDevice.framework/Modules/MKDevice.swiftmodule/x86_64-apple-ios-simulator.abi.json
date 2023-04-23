@@ -6,6 +6,44 @@
     "children": [
       {
         "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "ModelIO",
+        "printedName": "ModelIO",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22,16 +60,9 @@
         "moduleName": "MKDevice"
       },
       {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "MTKModel",
-        "printedName": "MTKModel",
+        "name": "MetalViewModel",
+        "printedName": "MetalViewModel",
         "children": [
           {
             "kind": "Constructor",
@@ -40,460 +71,24 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MTKModel",
-                "printedName": "MKDevice.MTKModel",
-                "usr": "s:8MKDevice8MTKModelC"
+                "name": "MetalViewModel",
+                "printedName": "MKDevice.MetalViewModel",
+                "usr": "s:8MKDevice14MetalViewModelC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MKDevice8MTKModelCACycfc",
-            "mangledName": "$s8MKDevice8MTKModelCACycfc",
+            "usr": "s:8MKDevice14MetalViewModelCACycfc",
+            "mangledName": "$s8MKDevice14MetalViewModelCACycfc",
             "moduleName": "MKDevice",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "updateView",
-            "printedName": "updateView(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice8MTKModelC10updateView5frameySo6CGRectV_tF",
-            "mangledName": "$s8MKDevice8MTKModelC10updateView5frameySo6CGRectV_tF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice8MTKModelC5imageSo7UIImageCvp",
-            "mangledName": "$s8MKDevice8MTKModelC5imageSo7UIImageCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5imageSo7UIImageCvg",
-                "mangledName": "$s8MKDevice8MTKModelC5imageSo7UIImageCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "index",
-            "printedName": "index",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice8MTKModelC5indexSivp",
-            "mangledName": "$s8MKDevice8MTKModelC5indexSivp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5indexSivg",
-                "mangledName": "$s8MKDevice8MTKModelC5indexSivg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5indexSivs",
-                "mangledName": "$s8MKDevice8MTKModelC5indexSivs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5indexSivM",
-                "mangledName": "$s8MKDevice8MTKModelC5indexSivM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "debugMode",
-            "printedName": "debugMode",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice8MTKModelC9debugModeSbvp",
-            "mangledName": "$s8MKDevice8MTKModelC9debugModeSbvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC9debugModeSbvg",
-                "mangledName": "$s8MKDevice8MTKModelC9debugModeSbvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC9debugModeSbvs",
-                "mangledName": "$s8MKDevice8MTKModelC9debugModeSbvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC9debugModeSbvM",
-                "mangledName": "$s8MKDevice8MTKModelC9debugModeSbvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uniforms",
-            "printedName": "uniforms",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UBuffer",
-                "printedName": "MKDevice.UBuffer",
-                "usr": "s:8MKDevice7UBufferV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice8MTKModelC8uniformsAA7UBufferVvp",
-            "mangledName": "$s8MKDevice8MTKModelC8uniformsAA7UBufferVvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UBuffer",
-                    "printedName": "MKDevice.UBuffer",
-                    "usr": "s:8MKDevice7UBufferV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC8uniformsAA7UBufferVvg",
-                "mangledName": "$s8MKDevice8MTKModelC8uniformsAA7UBufferVvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UBuffer",
-                    "printedName": "MKDevice.UBuffer",
-                    "usr": "s:8MKDevice7UBufferV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC8uniformsAA7UBufferVvs",
-                "mangledName": "$s8MKDevice8MTKModelC8uniformsAA7UBufferVvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC8uniformsAA7UBufferVvM",
-                "mangledName": "$s8MKDevice8MTKModelC8uniformsAA7UBufferVvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "setImage",
-            "printedName": "setImage(uiimage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice8MTKModelC8setImage7uiimageySo7UIImageC_tF",
-            "mangledName": "$s8MKDevice8MTKModelC8setImage7uiimageySo7UIImageC_tF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "mView",
-            "printedName": "mView",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MTKView",
-                "printedName": "MetalKit.MTKView",
-                "usr": "c:objc(cs)MTKView"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice8MTKModelC5mViewSo7MTKViewCvp",
-            "mangledName": "$s8MKDevice8MTKModelC5mViewSo7MTKViewCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MTKView",
-                    "printedName": "MetalKit.MTKView",
-                    "usr": "c:objc(cs)MTKView"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5mViewSo7MTKViewCvg",
-                "mangledName": "$s8MKDevice8MTKModelC5mViewSo7MTKViewCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MTKView",
-                    "printedName": "MetalKit.MTKView",
-                    "usr": "c:objc(cs)MTKView"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5mViewSo7MTKViewCvs",
-                "mangledName": "$s8MKDevice8MTKModelC5mViewSo7MTKViewCvs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice8MTKModelC5mViewSo7MTKViewCvM",
-                "mangledName": "$s8MKDevice8MTKModelC5mViewSo7MTKViewCvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "draw",
-            "printedName": "draw()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice8MTKModelC4drawyyF",
-            "mangledName": "$s8MKDevice8MTKModelC4drawyyF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "s:8MKDevice8MTKModelC",
-        "mangledName": "$s8MKDevice8MTKModelC",
+        "usr": "s:8MKDevice14MetalViewModelC",
+        "mangledName": "$s8MKDevice14MetalViewModelC",
         "moduleName": "MKDevice",
         "declAttributes": [
           "AccessControl"
@@ -590,1226 +185,44 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UBuffer",
-        "printedName": "UBuffer",
+        "name": "MDevice",
+        "printedName": "MDevice",
         "children": [
           {
-            "kind": "Var",
-            "name": "pos",
-            "printedName": "pos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD2",
-                "printedName": "Swift.SIMD2<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD2V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvp",
-            "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvg",
-                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvs",
-                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvM",
-                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "scale",
-            "printedName": "scale",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD2",
-                "printedName": "Swift.SIMD2<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD2V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvp",
-            "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvg",
-                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvs",
-                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvM",
-                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "rotation",
-            "printedName": "rotation",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV8rotationSfvp",
-            "mangledName": "$s8MKDevice7UBufferV8rotationSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rotationSfvg",
-                "mangledName": "$s8MKDevice7UBufferV8rotationSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rotationSfvs",
-                "mangledName": "$s8MKDevice7UBufferV8rotationSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rotationSfvM",
-                "mangledName": "$s8MKDevice7UBufferV8rotationSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "intensity",
-            "printedName": "intensity",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV9intensitySfvp",
-            "mangledName": "$s8MKDevice7UBufferV9intensitySfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9intensitySfvg",
-                "mangledName": "$s8MKDevice7UBufferV9intensitySfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9intensitySfvs",
-                "mangledName": "$s8MKDevice7UBufferV9intensitySfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9intensitySfvM",
-                "mangledName": "$s8MKDevice7UBufferV9intensitySfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "topPos",
-            "printedName": "topPos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV6topPosSfvp",
-            "mangledName": "$s8MKDevice7UBufferV6topPosSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV6topPosSfvg",
-                "mangledName": "$s8MKDevice7UBufferV6topPosSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV6topPosSfvs",
-                "mangledName": "$s8MKDevice7UBufferV6topPosSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV6topPosSfvM",
-                "mangledName": "$s8MKDevice7UBufferV6topPosSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "bottomPos",
-            "printedName": "bottomPos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV9bottomPosSfvp",
-            "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9bottomPosSfvg",
-                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9bottomPosSfvs",
-                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV9bottomPosSfvM",
-                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "leftPos",
-            "printedName": "leftPos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV7leftPosSfvp",
-            "mangledName": "$s8MKDevice7UBufferV7leftPosSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7leftPosSfvg",
-                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7leftPosSfvs",
-                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7leftPosSfvM",
-                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "rightPos",
-            "printedName": "rightPos",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV8rightPosSfvp",
-            "mangledName": "$s8MKDevice7UBufferV8rightPosSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rightPosSfvg",
-                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rightPosSfvs",
-                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8rightPosSfvM",
-                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "res",
-            "printedName": "res",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD2",
-                "printedName": "Swift.SIMD2<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD2V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvp",
-            "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvg",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvs",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvM",
-                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewRes",
-            "printedName": "viewRes",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD2",
-                "printedName": "Swift.SIMD2<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD2V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvp",
-            "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvg",
-                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<Swift.Float>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvs",
-                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvM",
-                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "smoothness",
-            "printedName": "smoothness",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV10smoothnessSfvp",
-            "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV10smoothnessSfvg",
-                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV10smoothnessSfvs",
-                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV10smoothnessSfvM",
-                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selected",
-            "printedName": "selected",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice7UBufferV8selectedSbvp",
-            "mangledName": "$s8MKDevice7UBufferV8selectedSbvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8selectedSbvg",
-                "mangledName": "$s8MKDevice7UBufferV8selectedSbvg",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8selectedSbvs",
-                "mangledName": "$s8MKDevice7UBufferV8selectedSbvs",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice7UBufferV8selectedSbvM",
-                "mangledName": "$s8MKDevice7UBufferV8selectedSbvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "name": "loadModel",
+            "printedName": "loadModel(assetUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
-                "name": "UBuffer",
-                "printedName": "MKDevice.UBuffer",
-                "usr": "s:8MKDevice7UBufferV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UBuffer",
-                "printedName": "MKDevice.UBuffer",
-                "usr": "s:8MKDevice7UBufferV"
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MKDevice7UBufferV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8MKDevice7UBufferV2eeoiySbAC_ACtFZ",
+            "usr": "s:8MKDevice7MDeviceC9loadModel8assetUrly10Foundation3URLV_tF",
+            "mangledName": "$s8MKDevice7MDeviceC9loadModel8assetUrly10Foundation3URLV_tF",
             "moduleName": "MKDevice",
-            "static": true,
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:8MKDevice7UBufferV",
-        "mangledName": "$s8MKDevice7UBufferV",
+        "declKind": "Class",
+        "usr": "s:8MKDevice7MDeviceC",
+        "mangledName": "$s8MKDevice7MDeviceC",
         "moduleName": "MKDevice",
         "declAttributes": [
           "AccessControl"
         ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "MKDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "SceneKit",
-        "printedName": "SceneKit",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "ModelIO",
-        "printedName": "ModelIO",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "MKDevice"
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -2743,242 +1156,242 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1054,
+      "offset": 343,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1090,
+      "offset": 378,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1124,
+      "offset": 411,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1159,
+      "offset": 445,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1226,
+      "offset": 510,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1230,
+      "offset": 514,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1267,
+      "offset": 550,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1296,
+      "offset": 578,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "Array",
-      "offset": 4930,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "Array",
-      "offset": 6263,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "Array",
-      "offset": 6289,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "Array",
-      "offset": 6319,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 8761,
-      "length": 15,
-      "value": "\"vertex_shader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 11145,
-      "length": 15,
-      "value": "\"vertex_shader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23018,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23210,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23403,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23575,
-      "length": 5,
-      "value": "0.067"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23589,
-      "length": 5,
-      "value": "0.729"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23602,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23615,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23660,
-      "length": 5,
-      "value": "0.071"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23674,
-      "length": 5,
-      "value": "0.195"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 23687,
-      "length": 5,
-      "value": "0.213"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23701,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 23995,
-      "length": 17543,
-      "value": "\"\/\/\n\/\/  ShaderMain.metal\n\/\/  MeshTools\n\/\/\n\/\/  Created by Demian Nezhdanov on 01.10.2021.\n\/\/\n\n#include <metal_stdlib>\nusing namespace metal;\n\n\n\n\n\n\nstruct BufferData {\n\n    float2 position;\n    float2 scale;\n    float rotation;\n    float intensity;\n    float topPos;\n    float bottomPos;\n    float leftPos;\n    float rightPos;\n    float2 res;\n    float2 viewRes;\n    float smoothness;\n    bool selected;\n \n};\n\n\n\n\n\n\n\/\/MARK:\n\nfloat3 blr(texture2d<float> tex, float2 uv, float rad){\n     constexpr sampler sam(filter::linear);\n     float3 blur = float3(0.0);\n    float2 res = float2( (tex.get_width()) , (tex.get_height()) );\n         float sum = 0.0;\n \n         for(float u = -rad; u<=rad; u+=5){\n             for(float v = -rad; v<=rad; v+=5){\n \n                 float weight = rad*10. - sqrt(u * u + v * v);\n                \/\/ uv + (float2(u, v)\/res)\n                 blur += weight * tex.sample(sam,uv + (float2(u, v)\/res)).rgb;\n                 sum += weight;\n             }\n         }\n         blur \/= sum;\n     \n    return blur;\n}\nfloat2 Distort(float2 p,  float2 d, float rad)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.0 + rad);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\nfloat line(float2 p, float2 a, float2 b,float2 res){\n    float2 pa = p-a;\n    float2 ba = b-a;\n\n    float t = clamp(dot(pa, ba)\/dot(ba,ba),0.,1.0);\n    float2 cv = pa - ba*t;\n    cv.y *= res.y\/res.x;\n    float d = length(cv);\n    if(distance(a, b)>2.){return 2.;}else{\n    return ( d);\n    }\n}\n\nfloat2 distort(float2 p,  float2 d)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.2);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\nfloat2 dist(float2 p,  float2 d,float r)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,r + 1.0);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\/\/MARK:\n\n\n\n\n\n\n\n\n\n\nstruct VertIn {\n     float2 position [[attribute(0)]];\n     float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertexOut {\n     float4 position [[position]];\n     float2 textureCoorinates;\n};\nstruct VertexIn {\n     float3 position [[attribute(0)]];\n    \n     float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertOut {\n     float4 position [[position]];\n    float2 textureCoorinates;\n     float3 color;\n};\n\n\n\n\/\/MARK: vertex\nvertex VertexOut model_vertex(VertexIn vertexBuffer [[stage_in]],\n                           constant BufferData &buffer_slim [[buffer(3)]],\n                              constant BufferData &buffer_tall [[buffer(4)]]) {\n\n\n    VertexOut vertexDataOut;\n    float4 pos = float4(vertexBuffer.position.x, vertexBuffer.position.y, 0.0, 1.0);\n    float2 texCoord = vertexBuffer.textureCoorinates;\n    texCoord.y = 1.0 - texCoord.y;\n    float aspect = buffer_slim.res.x \/ buffer_slim.res.y;\n    float aE = buffer_slim.viewRes.x\/buffer_slim.viewRes.y;\n    float2 offset = float2(0.0);\n    \n    if(aspect < 1.0){\n        pos.x *= aspect;\n    }else{\n        pos.y \/= aspect;\n    }\n    pos.x \/= aE;\n\/\/    if(aE < 1.0){\n\/\/        pos.x *= aE;\n\/\/    }else{\n\/\/        pos.y \/= aE;\n\/\/    }\n    \n    \n    \n    \/\/___________________________________________________________________________________________________________________\n    \n    \n  \n   float2 m = buffer_slim.position;\n   float slimIntensity = 1.0 + buffer_slim.intensity\/3.;\n   float center = m.x;\n   float width =  buffer_slim.scale.x\/5.;\n    \n    m.y = 1.0 - buffer_tall.position.y*2.;\n    float intensity = 1.0 + buffer_tall.intensity\/2.;\n    float height =  buffer_tall.scale.y\/5.;\n    \n    \n    \/\/ Перевод в локальные координаты\n    pos.x+=0.5;\n    pos.x -= m.x;\n    pos.x *= slimIntensity;\n    \n    if(abs(pos.x) >= width){\n        pos.x = pos.x + sign(pos.x) * width * (slimIntensity - 1.0);\n    }else{\n        pos.x = pos.x * slimIntensity;\n    }\n    \n    pos.x \/= slimIntensity;\n    pos.x += m.x;\n    pos.x-=0.5;\n    \n   \n    pos.x+=0.5;\n    pos.y -=  m.y;\n    pos.y *= intensity;\n    pos.y = abs(pos.y) >= height ? pos.y + sign(pos.y) * height * (intensity - 1.0): pos.y * intensity;\n    \n    pos.x \/=  1.0 + (buffer_tall.intensity\/3. * height\/2 );\n    pos.y \/= intensity;\n    pos.y +=  m.y;\n    pos.x-=0.5;\n    \n    pos.x += (buffer_tall.intensity\/3. * height\/2 )\/2;\n    pos.xy \/=  1.0 + (buffer_tall.intensity\/2. * height\/1.5 );\n\n    \n    \n    vertexDataOut.position = pos;\n    vertexDataOut.textureCoorinates = texCoord;\n     return vertexDataOut;\n}\n\n\n\nvertex VertexOut vertex_shader(constant VertIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               constant BufferData &buffer [[buffer(1)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\/\/\n\/\/    texcoord.y -= 0.5;\n\/\/    texcoord.y *= 1.0 + buffer.intensity;\n\/\/\n\/\/    texcoord.y += 0.5;\n    float2 m = buffer.position;\n    float intensity =  buffer.intensity;\n\/\/    float3 color = float3(0.0);\n\/\/     float FirstPlane = 0.55;\n\/\/     float SecondPlane = 0.45;\n\/\/     float ScalePower = 1.0 - intensity\/3.;\n\/\/     float2 po = pos.xy;\n\/\/     float ScaleCenter = m.y;\n\/\/     float HalfSize = abs(FirstPlane - SecondPlane) * 0.5;\n\/\/     po.y -= ScaleCenter;\n\/\/     po.y *= ScalePower;\n\/\/     float ScaleFactor = HalfSize > 0.0 ? abs(po.y) \/ HalfSize : 0.0;\n\/\/     po.y = abs(po.y) >= HalfSize ? po.y + sign(po.y) * HalfSize * (ScalePower - 1.0): po.y * ScalePower;\n\/\/     po.y \/= ScalePower;\n\/\/     po.y += ScaleCenter;\n\/\/     po.y *= 1.0 + intensity\/12;\n\/\/\n    \n\/\/    pos.xy = po;\n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\nvertex VertexOut vertex_final_shader(constant VertexIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertexIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\n\/\/    pos.xy += dcol;\n    \n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\n\n\n\/\/MARK: vertex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconstexpr sampler sam( filter::linear, address::clamp_to_edge  );\n\n\n\n\n\/\/MARK: slim\n\nfragment float4 slim(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n\n    float2 uv = fragmentIn.textureCoorinates;\n    float2 res = float2(img.get_width(),img.get_height());\n\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 - buffer.intensity\/3.;\n    float2 po = uv;\n\n    float center = m.x;\n    \n    float width =  buffer.scale.x\/10.;\n\/\/    float f =\n    \/\/ Перевод в локальные координаты\n    po.x -= m.x;\n    po.x *= intensity;\n    \n    float ScaleFactor = width > 0.0 ? abs(po.x) \/ width : 0.0;\n    \n\/\/    po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n\/\/    po.x *=intensity;\n    if(abs(po.x) >= width){\n        po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n    }else{\n        po.x = po.x * intensity;\n    }\n\/\/    po.x = abs(po.x) >= width ? po.x + sign(po.x) * width * (intensity - 1.0): po.x * intensity;\n  \n    \n    po.x \/= intensity;\n    po.x += m.x;\n   \n\n   float3 color = img.sample(sam, uv ).rgb;\n\n   \n    \n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.005, abs(width - abs(po.x - center))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.045, abs(ScaleFactor)));\n    }\n\/\/    color += col;\n    return float4(color, 1.0);\n   \n}\n\n\n\n\/\/MARK: tall\nfragment float4 tall(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n    float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n\/\/    m.y = 1.0 - buffer.position.y;\n\n    float3 color = float3(0.0);\n    \n    \n    \n    float2 po = uv;\n\/\/    float intensity = 1.0 - buffer.intensity\/3.;\n    float height =  buffer.scale.y\/6.;\n  \n\/\/    po.y -=  m.y;\n\/\/    po.y *= intensity;\n\/\/    po.y = abs(po.y) >= height ? po.y + sign(po.y) * height * (intensity - 1.0): po.y * intensity;\n\/\/    po.y \/= intensity;\n\/\/    po.y +=  m.y;\n    \n    color = img.sample(sam, uv ).rgb;\n    \n    \n    if( buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n       color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.01, abs(height - abs(po.y - m.y))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.08, abs(height > 0.0 ? abs(po.y) \/ height : 0.0)));\n    }\n    \n    \n\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/MARK: head\nfragment float4 head(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = abs(1.0 + buffer.intensity*2);\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    float2 scale = buffer.scale\/2. + 0.0001;\n    \n    \n    float aspect = res.y \/ res.x;\n    \n    float area = length(float2(uv.x,uv.y*aspect) - float2(m.x,m.y * aspect));\n    float smooth =  buffer.smoothness;\n    area = smoothstep(scale.x ,scale.x *(1.0 - smooth) , (area));\n    \n  \n    uv-=m;\n    float2 dis = uv;\n    float2 dismin = uv;\/\/Distort(uv, po, intensity\/112. );\n    dis \/= 1. + intensity\/12.;\n    dismin *= 1. + intensity\/12.;\n    if(buffer.intensity>=0.0){\n        uv = mix(uv,dis,area*abs(buffer.intensity*2.));\n    }else{\n        uv = mix(uv,dismin,area*abs(buffer.intensity*2.));\n    }\n    uv+=m;\n    \n    \n    \n    color = img.sample(sam, uv ).rgb;\n    float PatternRadius = scale.x  ;\n    po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n\/\/    color += float3(area);\n    return float4(color, 1.0);\n}\n\n#define M_PI 3.14159\n\n\/\/Настройка Фигуры - Степень\n#define HIPS_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - волчёк, 1.0 - квадрат)\n#define HIPS_FORM 0.3\n\n\/\/Отладочная информация\n\/\/#define DEBUG_DRAW_FRAME\n\n\/\/Temp code (make it uniform)\n\/\/float HalfWidth = 0.1;\n\/\/float HalfHeight = 0.1;\n\/\/float RotateAngle = 0.0;\n\/\/float StretchFactor = 1.0;\n\/\/vec2 PatternCenter = vec2(0.5, 0.5);\n\/\/MARK: hips\nfragment float4 hips(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity*2;\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    po.y *= res.y \/ res.x;\n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n    \n    \n   \n    \n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(1.0 - pow(h, HIPS_POWER), 1.0, HIPS_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    \n    \/\/Искажение по ширине, t - Фактор искажения, StretchFactor - сила искажения\n    poRotate.x \/= mix(intensity, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    \/\/ Выборка текстуры, на которую используется фильтр\n    color = img.sample(sam, po ).rgb;\n    \/\/ Код для отладки - вывод рамки, и центра\n\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/Настройка Фигуры - Степень\n#define WAIST_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - песочные часы, 1.0 - квадрат)\n#define WAIST_FORM 0.6\n\n\n\/\/MARK: waist\nfragment float4 waist(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    \n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity;\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n  \n    float2 po = uv - m;\n    \n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n    float CompressFactor = intensity;\n    \n    po.y *= res.y \/ res.x;\n    \n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(pow(h, WAIST_POWER), 1.0, WAIST_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    \n    \/\/Искажение по ширине, t - Фактор искажения, CompressFactor - сила искажения\n    poRotate.x *= mix(CompressFactor, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    color = img.sample(sam, po ).rgb;\n    \n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\n\n\/\/MARK: final_fragment\nfragment float4 final_fragment(VertexOut fragmentIn [[stage_in]],\n                            \n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n    uv.x = 1.0 - uv.x;\n\n    float3 color = img.sample(sam, uv ).rgb;\n    return float4(color, 1.0);\n}\n\""
-    },
-    {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 746,
+      "offset": 665,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 964,
+      "offset": 883,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 909,
       "length": 14,
       "value": "\"model_vertex\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1206,
+      "offset": 1125,
       "length": 67,
       "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1309,
+      "offset": 1228,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1341,
+      "offset": 1260,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1363,
+      "offset": 1282,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1415,
+      "offset": 1334,
       "length": 41,
       "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "Array",
+      "offset": 4168,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "Array",
+      "offset": 5501,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "Array",
+      "offset": 5527,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "Array",
+      "offset": 5557,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 7999,
+      "length": 15,
+      "value": "\"vertex_shader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 10383,
+      "length": 15,
+      "value": "\"vertex_shader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22448,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22813,
+      "length": 5,
+      "value": "0.067"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22827,
+      "length": 5,
+      "value": "0.729"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22840,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22853,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22898,
+      "length": 5,
+      "value": "0.071"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22912,
+      "length": 5,
+      "value": "0.195"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 22925,
+      "length": 5,
+      "value": "0.213"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22939,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 23233,
+      "length": 17543,
+      "value": "\"\/\/\n\/\/  ShaderMain.metal\n\/\/  MeshTools\n\/\/\n\/\/  Created by Demian Nezhdanov on 01.10.2021.\n\/\/\n\n#include <metal_stdlib>\nusing namespace metal;\n\n\n\n\n\n\nstruct BufferData {\n\n    float2 position;\n    float2 scale;\n    float rotation;\n    float intensity;\n    float topPos;\n    float bottomPos;\n    float leftPos;\n    float rightPos;\n    float2 res;\n    float2 viewRes;\n    float smoothness;\n    bool selected;\n \n};\n\n\n\n\n\n\n\/\/MARK:\n\nfloat3 blr(texture2d<float> tex, float2 uv, float rad){\n     constexpr sampler sam(filter::linear);\n     float3 blur = float3(0.0);\n    float2 res = float2( (tex.get_width()) , (tex.get_height()) );\n         float sum = 0.0;\n \n         for(float u = -rad; u<=rad; u+=5){\n             for(float v = -rad; v<=rad; v+=5){\n \n                 float weight = rad*10. - sqrt(u * u + v * v);\n                \/\/ uv + (float2(u, v)\/res)\n                 blur += weight * tex.sample(sam,uv + (float2(u, v)\/res)).rgb;\n                 sum += weight;\n             }\n         }\n         blur \/= sum;\n     \n    return blur;\n}\nfloat2 Distort(float2 p,  float2 d, float rad)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.0 + rad);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\nfloat line(float2 p, float2 a, float2 b,float2 res){\n    float2 pa = p-a;\n    float2 ba = b-a;\n\n    float t = clamp(dot(pa, ba)\/dot(ba,ba),0.,1.0);\n    float2 cv = pa - ba*t;\n    cv.y *= res.y\/res.x;\n    float d = length(cv);\n    if(distance(a, b)>2.){return 2.;}else{\n    return ( d);\n    }\n}\n\nfloat2 distort(float2 p,  float2 d)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.2);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\nfloat2 dist(float2 p,  float2 d,float r)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,r + 1.0);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\/\/MARK:\n\n\n\n\n\n\n\n\n\n\nstruct VertIn {\n     float2 position [[attribute(0)]];\n     float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertexOut {\n     float4 position [[position]];\n     float2 textureCoorinates;\n};\nstruct VertexIn {\n     float3 position [[attribute(0)]];\n    \n     float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertOut {\n     float4 position [[position]];\n    float2 textureCoorinates;\n     float3 color;\n};\n\n\n\n\/\/MARK: vertex\nvertex VertexOut model_vertex(VertexIn vertexBuffer [[stage_in]],\n                           constant BufferData &buffer_slim [[buffer(3)]],\n                              constant BufferData &buffer_tall [[buffer(4)]]) {\n\n\n    VertexOut vertexDataOut;\n    float4 pos = float4(vertexBuffer.position.x, vertexBuffer.position.y, 0.0, 1.0);\n    float2 texCoord = vertexBuffer.textureCoorinates;\n    texCoord.y = 1.0 - texCoord.y;\n    float aspect = buffer_slim.res.x \/ buffer_slim.res.y;\n    float aE = buffer_slim.viewRes.x\/buffer_slim.viewRes.y;\n    float2 offset = float2(0.0);\n    \n    if(aspect < 1.0){\n        pos.x *= aspect;\n    }else{\n        pos.y \/= aspect;\n    }\n    pos.x \/= aE;\n\/\/    if(aE < 1.0){\n\/\/        pos.x *= aE;\n\/\/    }else{\n\/\/        pos.y \/= aE;\n\/\/    }\n    \n    \n    \n    \/\/___________________________________________________________________________________________________________________\n    \n    \n  \n   float2 m = buffer_slim.position;\n   float slimIntensity = 1.0 + buffer_slim.intensity\/3.;\n   float center = m.x;\n   float width =  buffer_slim.scale.x\/5.;\n    \n    m.y = 1.0 - buffer_tall.position.y*2.;\n    float intensity = 1.0 + buffer_tall.intensity\/2.;\n    float height =  buffer_tall.scale.y\/5.;\n    \n    \n    \/\/ Перевод в локальные координаты\n    pos.x+=0.5;\n    pos.x -= m.x;\n    pos.x *= slimIntensity;\n    \n    if(abs(pos.x) >= width){\n        pos.x = pos.x + sign(pos.x) * width * (slimIntensity - 1.0);\n    }else{\n        pos.x = pos.x * slimIntensity;\n    }\n    \n    pos.x \/= slimIntensity;\n    pos.x += m.x;\n    pos.x-=0.5;\n    \n   \n    pos.x+=0.5;\n    pos.y -=  m.y;\n    pos.y *= intensity;\n    pos.y = abs(pos.y) >= height ? pos.y + sign(pos.y) * height * (intensity - 1.0): pos.y * intensity;\n    \n    pos.x \/=  1.0 + (buffer_tall.intensity\/3. * height\/2 );\n    pos.y \/= intensity;\n    pos.y +=  m.y;\n    pos.x-=0.5;\n    \n    pos.x += (buffer_tall.intensity\/3. * height\/2 )\/2;\n    pos.xy \/=  1.0 + (buffer_tall.intensity\/2. * height\/1.5 );\n\n    \n    \n    vertexDataOut.position = pos;\n    vertexDataOut.textureCoorinates = texCoord;\n     return vertexDataOut;\n}\n\n\n\nvertex VertexOut vertex_shader(constant VertIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               constant BufferData &buffer [[buffer(1)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\/\/\n\/\/    texcoord.y -= 0.5;\n\/\/    texcoord.y *= 1.0 + buffer.intensity;\n\/\/\n\/\/    texcoord.y += 0.5;\n    float2 m = buffer.position;\n    float intensity =  buffer.intensity;\n\/\/    float3 color = float3(0.0);\n\/\/     float FirstPlane = 0.55;\n\/\/     float SecondPlane = 0.45;\n\/\/     float ScalePower = 1.0 - intensity\/3.;\n\/\/     float2 po = pos.xy;\n\/\/     float ScaleCenter = m.y;\n\/\/     float HalfSize = abs(FirstPlane - SecondPlane) * 0.5;\n\/\/     po.y -= ScaleCenter;\n\/\/     po.y *= ScalePower;\n\/\/     float ScaleFactor = HalfSize > 0.0 ? abs(po.y) \/ HalfSize : 0.0;\n\/\/     po.y = abs(po.y) >= HalfSize ? po.y + sign(po.y) * HalfSize * (ScalePower - 1.0): po.y * ScalePower;\n\/\/     po.y \/= ScalePower;\n\/\/     po.y += ScaleCenter;\n\/\/     po.y *= 1.0 + intensity\/12;\n\/\/\n    \n\/\/    pos.xy = po;\n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\nvertex VertexOut vertex_final_shader(constant VertexIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertexIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\n\/\/    pos.xy += dcol;\n    \n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\n\n\n\/\/MARK: vertex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconstexpr sampler sam( filter::linear, address::clamp_to_edge  );\n\n\n\n\n\/\/MARK: slim\n\nfragment float4 slim(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n\n    float2 uv = fragmentIn.textureCoorinates;\n    float2 res = float2(img.get_width(),img.get_height());\n\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 - buffer.intensity\/3.;\n    float2 po = uv;\n\n    float center = m.x;\n    \n    float width =  buffer.scale.x\/10.;\n\/\/    float f =\n    \/\/ Перевод в локальные координаты\n    po.x -= m.x;\n    po.x *= intensity;\n    \n    float ScaleFactor = width > 0.0 ? abs(po.x) \/ width : 0.0;\n    \n\/\/    po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n\/\/    po.x *=intensity;\n    if(abs(po.x) >= width){\n        po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n    }else{\n        po.x = po.x * intensity;\n    }\n\/\/    po.x = abs(po.x) >= width ? po.x + sign(po.x) * width * (intensity - 1.0): po.x * intensity;\n  \n    \n    po.x \/= intensity;\n    po.x += m.x;\n   \n\n   float3 color = img.sample(sam, uv ).rgb;\n\n   \n    \n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.005, abs(width - abs(po.x - center))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.045, abs(ScaleFactor)));\n    }\n\/\/    color += col;\n    return float4(color, 1.0);\n   \n}\n\n\n\n\/\/MARK: tall\nfragment float4 tall(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n    float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n\/\/    m.y = 1.0 - buffer.position.y;\n\n    float3 color = float3(0.0);\n    \n    \n    \n    float2 po = uv;\n\/\/    float intensity = 1.0 - buffer.intensity\/3.;\n    float height =  buffer.scale.y\/6.;\n  \n\/\/    po.y -=  m.y;\n\/\/    po.y *= intensity;\n\/\/    po.y = abs(po.y) >= height ? po.y + sign(po.y) * height * (intensity - 1.0): po.y * intensity;\n\/\/    po.y \/= intensity;\n\/\/    po.y +=  m.y;\n    \n    color = img.sample(sam, uv ).rgb;\n    \n    \n    if( buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n       color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.01, abs(height - abs(po.y - m.y))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.08, abs(height > 0.0 ? abs(po.y) \/ height : 0.0)));\n    }\n    \n    \n\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/MARK: head\nfragment float4 head(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = abs(1.0 + buffer.intensity*2);\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    float2 scale = buffer.scale\/2. + 0.0001;\n    \n    \n    float aspect = res.y \/ res.x;\n    \n    float area = length(float2(uv.x,uv.y*aspect) - float2(m.x,m.y * aspect));\n    float smooth =  buffer.smoothness;\n    area = smoothstep(scale.x ,scale.x *(1.0 - smooth) , (area));\n    \n  \n    uv-=m;\n    float2 dis = uv;\n    float2 dismin = uv;\/\/Distort(uv, po, intensity\/112. );\n    dis \/= 1. + intensity\/12.;\n    dismin *= 1. + intensity\/12.;\n    if(buffer.intensity>=0.0){\n        uv = mix(uv,dis,area*abs(buffer.intensity*2.));\n    }else{\n        uv = mix(uv,dismin,area*abs(buffer.intensity*2.));\n    }\n    uv+=m;\n    \n    \n    \n    color = img.sample(sam, uv ).rgb;\n    float PatternRadius = scale.x  ;\n    po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n\/\/    color += float3(area);\n    return float4(color, 1.0);\n}\n\n#define M_PI 3.14159\n\n\/\/Настройка Фигуры - Степень\n#define HIPS_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - волчёк, 1.0 - квадрат)\n#define HIPS_FORM 0.3\n\n\/\/Отладочная информация\n\/\/#define DEBUG_DRAW_FRAME\n\n\/\/Temp code (make it uniform)\n\/\/float HalfWidth = 0.1;\n\/\/float HalfHeight = 0.1;\n\/\/float RotateAngle = 0.0;\n\/\/float StretchFactor = 1.0;\n\/\/vec2 PatternCenter = vec2(0.5, 0.5);\n\/\/MARK: hips\nfragment float4 hips(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity*2;\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    po.y *= res.y \/ res.x;\n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n    \n    \n   \n    \n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(1.0 - pow(h, HIPS_POWER), 1.0, HIPS_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    \n    \/\/Искажение по ширине, t - Фактор искажения, StretchFactor - сила искажения\n    poRotate.x \/= mix(intensity, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    \/\/ Выборка текстуры, на которую используется фильтр\n    color = img.sample(sam, po ).rgb;\n    \/\/ Код для отладки - вывод рамки, и центра\n\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/Настройка Фигуры - Степень\n#define WAIST_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - песочные часы, 1.0 - квадрат)\n#define WAIST_FORM 0.6\n\n\n\/\/MARK: waist\nfragment float4 waist(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    \n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity;\n   float3 color = float3(0.0);\n    float2 res = float2(img.get_width(),img.get_height());\n  \n    float2 po = uv - m;\n    \n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n    float CompressFactor = intensity;\n    \n    po.y *= res.y \/ res.x;\n    \n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(pow(h, WAIST_POWER), 1.0, WAIST_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    \n    \/\/Искажение по ширине, t - Фактор искажения, CompressFactor - сила искажения\n    poRotate.x *= mix(CompressFactor, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    color = img.sample(sam, po ).rgb;\n    \n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\n\n\/\/MARK: final_fragment\nfragment float4 final_fragment(VertexOut fragmentIn [[stage_in]],\n                            \n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n    uv.x = 1.0 - uv.x;\n\n    float3 color = img.sample(sam, uv ).rgb;\n    return float4(color, 1.0);\n}\n\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/Utils.swift",
