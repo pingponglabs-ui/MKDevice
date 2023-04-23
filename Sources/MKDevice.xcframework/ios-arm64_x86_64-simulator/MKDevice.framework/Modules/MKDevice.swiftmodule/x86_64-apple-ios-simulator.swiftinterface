@@ -15,7 +15,7 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import simd
-public class MetalViewModel : Foundation.ObservableObject {
+public class MTKModel : Foundation.ObservableObject {
   public init()
   public func updateView(frame: CoreFoundation.CGRect)
   public var image: UIKit.UIImage {
@@ -33,7 +33,7 @@ public class MetalViewModel : Foundation.ObservableObject {
     get
     set(newVal)
   }
-  public func setImage(named name: Swift.String)
+  public func setImage(uiimage name: UIKit.UIImage)
   public var mView: MetalKit.MTKView {
     get
     set(newVal)
@@ -64,10 +64,6 @@ public struct UBuffer : Swift.Equatable {
   public var smoothness: Swift.Float
   public var selected: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
-}
-@_hasMissingDesignatedInitializers public class MDevice {
-  @objc deinit
-  public func loadModel(assetUrl: Foundation.URL)
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
