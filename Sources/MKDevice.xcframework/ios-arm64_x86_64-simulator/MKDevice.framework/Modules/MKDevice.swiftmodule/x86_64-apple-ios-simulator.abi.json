@@ -43,6 +43,1184 @@
         "moduleName": "MKDevice"
       },
       {
+        "kind": "TypeDecl",
+        "name": "UBuffer",
+        "printedName": "UBuffer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pos",
+            "printedName": "pos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvp",
+            "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvg",
+                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvs",
+                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3poss5SIMD2VySfGvM",
+                "mangledName": "$s8MKDevice7UBufferV3poss5SIMD2VySfGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scale",
+            "printedName": "scale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvp",
+            "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvg",
+                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvs",
+                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV5scales5SIMD2VySfGvM",
+                "mangledName": "$s8MKDevice7UBufferV5scales5SIMD2VySfGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotation",
+            "printedName": "rotation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV8rotationSfvp",
+            "mangledName": "$s8MKDevice7UBufferV8rotationSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rotationSfvg",
+                "mangledName": "$s8MKDevice7UBufferV8rotationSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rotationSfvs",
+                "mangledName": "$s8MKDevice7UBufferV8rotationSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rotationSfvM",
+                "mangledName": "$s8MKDevice7UBufferV8rotationSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intensity",
+            "printedName": "intensity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV9intensitySfvp",
+            "mangledName": "$s8MKDevice7UBufferV9intensitySfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9intensitySfvg",
+                "mangledName": "$s8MKDevice7UBufferV9intensitySfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9intensitySfvs",
+                "mangledName": "$s8MKDevice7UBufferV9intensitySfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9intensitySfvM",
+                "mangledName": "$s8MKDevice7UBufferV9intensitySfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "topPos",
+            "printedName": "topPos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV6topPosSfvp",
+            "mangledName": "$s8MKDevice7UBufferV6topPosSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV6topPosSfvg",
+                "mangledName": "$s8MKDevice7UBufferV6topPosSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV6topPosSfvs",
+                "mangledName": "$s8MKDevice7UBufferV6topPosSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV6topPosSfvM",
+                "mangledName": "$s8MKDevice7UBufferV6topPosSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomPos",
+            "printedName": "bottomPos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV9bottomPosSfvp",
+            "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9bottomPosSfvg",
+                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9bottomPosSfvs",
+                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV9bottomPosSfvM",
+                "mangledName": "$s8MKDevice7UBufferV9bottomPosSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftPos",
+            "printedName": "leftPos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV7leftPosSfvp",
+            "mangledName": "$s8MKDevice7UBufferV7leftPosSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7leftPosSfvg",
+                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7leftPosSfvs",
+                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7leftPosSfvM",
+                "mangledName": "$s8MKDevice7UBufferV7leftPosSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightPos",
+            "printedName": "rightPos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV8rightPosSfvp",
+            "mangledName": "$s8MKDevice7UBufferV8rightPosSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rightPosSfvg",
+                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rightPosSfvs",
+                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8rightPosSfvM",
+                "mangledName": "$s8MKDevice7UBufferV8rightPosSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "res",
+            "printedName": "res",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvp",
+            "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvg",
+                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvs",
+                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV3ress5SIMD2VySfGvM",
+                "mangledName": "$s8MKDevice7UBufferV3ress5SIMD2VySfGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewRes",
+            "printedName": "viewRes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvp",
+            "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvg",
+                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvs",
+                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV7viewRess5SIMD2VySfGvM",
+                "mangledName": "$s8MKDevice7UBufferV7viewRess5SIMD2VySfGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smoothness",
+            "printedName": "smoothness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV10smoothnessSfvp",
+            "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV10smoothnessSfvg",
+                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV10smoothnessSfvs",
+                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV10smoothnessSfvM",
+                "mangledName": "$s8MKDevice7UBufferV10smoothnessSfvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selected",
+            "printedName": "selected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice7UBufferV8selectedSbvp",
+            "mangledName": "$s8MKDevice7UBufferV8selectedSbvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8selectedSbvg",
+                "mangledName": "$s8MKDevice7UBufferV8selectedSbvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8selectedSbvs",
+                "mangledName": "$s8MKDevice7UBufferV8selectedSbvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice7UBufferV8selectedSbvM",
+                "mangledName": "$s8MKDevice7UBufferV8selectedSbvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UBuffer",
+                "printedName": "MKDevice.UBuffer",
+                "usr": "s:8MKDevice7UBufferV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UBuffer",
+                "printedName": "MKDevice.UBuffer",
+                "usr": "s:8MKDevice7UBufferV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice7UBufferV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8MKDevice7UBufferV2eeoiySbAC_ACtFZ",
+            "moduleName": "MKDevice",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MKDevice7UBufferV",
+        "mangledName": "$s8MKDevice7UBufferV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -60,9 +1238,16 @@
         "moduleName": "MKDevice"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "MetalViewModel",
-        "printedName": "MetalViewModel",
+        "name": "BodyTools",
+        "printedName": "BodyTools",
         "children": [
           {
             "kind": "Constructor",
@@ -71,24 +1256,441 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MetalViewModel",
-                "printedName": "MKDevice.MetalViewModel",
-                "usr": "s:8MKDevice14MetalViewModelC"
+                "name": "BodyTools",
+                "printedName": "MKDevice.BodyTools",
+                "usr": "s:8MKDevice9BodyToolsC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MKDevice14MetalViewModelCACycfc",
-            "mangledName": "$s8MKDevice14MetalViewModelCACycfc",
+            "usr": "s:8MKDevice9BodyToolsCACycfc",
+            "mangledName": "$s8MKDevice9BodyToolsCACycfc",
             "moduleName": "MKDevice",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateView",
+            "printedName": "updateView(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice9BodyToolsC10updateView5frameySo6CGRectV_tF",
+            "mangledName": "$s8MKDevice9BodyToolsC10updateView5frameySo6CGRectV_tF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice9BodyToolsC5imageSo7UIImageCvp",
+            "mangledName": "$s8MKDevice9BodyToolsC5imageSo7UIImageCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5imageSo7UIImageCvg",
+                "mangledName": "$s8MKDevice9BodyToolsC5imageSo7UIImageCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice9BodyToolsC5indexSivp",
+            "mangledName": "$s8MKDevice9BodyToolsC5indexSivp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5indexSivg",
+                "mangledName": "$s8MKDevice9BodyToolsC5indexSivg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5indexSivs",
+                "mangledName": "$s8MKDevice9BodyToolsC5indexSivs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5indexSivM",
+                "mangledName": "$s8MKDevice9BodyToolsC5indexSivM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice9BodyToolsC9debugModeSbvp",
+            "mangledName": "$s8MKDevice9BodyToolsC9debugModeSbvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC9debugModeSbvg",
+                "mangledName": "$s8MKDevice9BodyToolsC9debugModeSbvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC9debugModeSbvs",
+                "mangledName": "$s8MKDevice9BodyToolsC9debugModeSbvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC9debugModeSbvM",
+                "mangledName": "$s8MKDevice9BodyToolsC9debugModeSbvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniforms",
+            "printedName": "uniforms",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UBuffer",
+                "printedName": "MKDevice.UBuffer",
+                "usr": "s:8MKDevice7UBufferV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice9BodyToolsC8uniformsAA7UBufferVvp",
+            "mangledName": "$s8MKDevice9BodyToolsC8uniformsAA7UBufferVvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC8uniformsAA7UBufferVvg",
+                "mangledName": "$s8MKDevice9BodyToolsC8uniformsAA7UBufferVvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC8uniformsAA7UBufferVvs",
+                "mangledName": "$s8MKDevice9BodyToolsC8uniformsAA7UBufferVvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC8uniformsAA7UBufferVvM",
+                "mangledName": "$s8MKDevice9BodyToolsC8uniformsAA7UBufferVvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setImage",
+            "printedName": "setImage(uiimage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice9BodyToolsC8setImage7uiimageySo7UIImageC_tF",
+            "mangledName": "$s8MKDevice9BodyToolsC8setImage7uiimageySo7UIImageC_tF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "mView",
+            "printedName": "mView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTKView",
+                "printedName": "MetalKit.MTKView",
+                "usr": "c:objc(cs)MTKView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice9BodyToolsC5mViewSo7MTKViewCvp",
+            "mangledName": "$s8MKDevice9BodyToolsC5mViewSo7MTKViewCvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTKView",
+                    "printedName": "MetalKit.MTKView",
+                    "usr": "c:objc(cs)MTKView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5mViewSo7MTKViewCvg",
+                "mangledName": "$s8MKDevice9BodyToolsC5mViewSo7MTKViewCvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTKView",
+                    "printedName": "MetalKit.MTKView",
+                    "usr": "c:objc(cs)MTKView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5mViewSo7MTKViewCvs",
+                "mangledName": "$s8MKDevice9BodyToolsC5mViewSo7MTKViewCvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice9BodyToolsC5mViewSo7MTKViewCvM",
+                "mangledName": "$s8MKDevice9BodyToolsC5mViewSo7MTKViewCvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
-        "usr": "s:8MKDevice14MetalViewModelC",
-        "mangledName": "$s8MKDevice14MetalViewModelC",
+        "usr": "s:8MKDevice9BodyToolsC",
+        "mangledName": "$s8MKDevice9BodyToolsC",
         "moduleName": "MKDevice",
         "declAttributes": [
           "AccessControl"
@@ -1158,112 +2760,112 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 343,
+      "offset": 350,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 378,
+      "offset": 385,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 411,
+      "offset": 418,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 445,
+      "offset": 452,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 510,
+      "offset": 517,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 514,
+      "offset": 521,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 550,
+      "offset": 557,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 578,
+      "offset": 585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 665,
+      "offset": 672,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 890,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 916,
       "length": 14,
       "value": "\"model_vertex\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1125,
+      "offset": 1132,
       "length": 67,
       "value": "[\"slim\", \"tall\", \"vertex_shader\", \"vertex_shader\", \"vertex_shader\"]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1228,
+      "offset": 1235,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1260,
+      "offset": 1267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1282,
+      "offset": 1289,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 1334,
+      "offset": 1341,
       "length": 41,
       "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\"]"
     },
