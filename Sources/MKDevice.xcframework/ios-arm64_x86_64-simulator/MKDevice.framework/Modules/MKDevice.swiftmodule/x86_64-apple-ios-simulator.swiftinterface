@@ -48,6 +48,7 @@ public class BodyTools : Foundation.ObservableObject {
     set(newVal)
   }
   public func setImage(uiimage: UIKit.UIImage)
+  public func swap()
   public var mView: MetalKit.MTKView {
     get
     set(newVal)
@@ -62,10 +63,6 @@ public struct PPState {
 public struct Buffer {
 }
 public struct Byte {
-}
-@_hasMissingDesignatedInitializers public class MDevice {
-  @objc deinit
-  public func loadModel(assetUrl: Foundation.URL)
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
@@ -99,6 +96,11 @@ extension UIKit.UIColor {
 }
 extension Metal.MTLTexture {
   public var cgImage: CoreGraphics.CGImage? {
+    get
+  }
+}
+extension Metal.MTLTexture {
+  public var size: CoreFoundation.CGSize {
     get
   }
 }
