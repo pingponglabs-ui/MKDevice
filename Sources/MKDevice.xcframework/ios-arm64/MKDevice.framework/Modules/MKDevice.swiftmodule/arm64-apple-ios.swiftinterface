@@ -16,6 +16,7 @@ import _StringProcessing
 import simd
 public struct UBuffer : Swift.Equatable {
   public var pos: simd.float2
+  public var pmouse: simd.float2
   public var scale: simd.float2
   public var rotation: Swift.Float
   public var intensity: Swift.Float
@@ -29,12 +30,15 @@ public struct UBuffer : Swift.Equatable {
   public var selected: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
-public class BodyTools : Foundation.ObservableObject {
-  public init()
+@_hasMissingDesignatedInitializers public class BodyTools : Foundation.ObservableObject {
   public var image: UIKit.UIImage {
     get
   }
   public var index: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var useReshape: Swift.Bool {
     get
     set(newVal)
   }
