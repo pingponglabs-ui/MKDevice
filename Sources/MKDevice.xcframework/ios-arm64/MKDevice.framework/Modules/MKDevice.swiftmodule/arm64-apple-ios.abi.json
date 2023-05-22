@@ -1359,6 +1359,27 @@
         "printedName": "BodyTools",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BodyTools",
+                "printedName": "MKDevice.BodyTools",
+                "usr": "s:8MKDevice9BodyToolsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MKDevice9BodyToolsCACycfc",
+            "mangledName": "$s8MKDevice9BodyToolsCACycfc",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "image",
             "printedName": "image",
@@ -1899,7 +1920,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

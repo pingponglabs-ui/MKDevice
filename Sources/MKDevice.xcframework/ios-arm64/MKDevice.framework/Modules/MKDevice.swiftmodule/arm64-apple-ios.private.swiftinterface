@@ -30,7 +30,8 @@ public struct UBuffer : Swift.Equatable {
   public var selected: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers public class BodyTools : Foundation.ObservableObject {
+public class BodyTools : Foundation.ObservableObject {
+  public init()
   public var image: UIKit.UIImage {
     get
   }
