@@ -31,7 +31,6 @@ public struct UBuffer : Swift.Equatable {
 }
 public class BodyTools : Foundation.ObservableObject {
   public init()
-  public func updateView(frame: CoreFoundation.CGRect)
   public var image: UIKit.UIImage {
     get
   }
@@ -48,15 +47,21 @@ public class BodyTools : Foundation.ObservableObject {
     set(newVal)
   }
   public func setImage(uiimage: UIKit.UIImage)
+  public func updateView()
   public func swap()
   public var mView: MetalKit.MTKView {
     get
     set(newVal)
   }
+  public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
 public struct VertexData {
+}
+public struct VData {
+}
+public struct VnewData {
 }
 public struct PPState {
 }
@@ -65,7 +70,10 @@ public struct Buffer {
 public struct Byte {
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
-  public func convertCoord() -> simd.float2
+  public func convertToPosCoord() -> simd.float2
+}
+extension Swift.SIMD2 where Scalar == Swift.Float {
+  public func convertToTexCoord() -> simd.float2
 }
 extension Metal.MTLRenderCommandEncoder {
   public func setVertexValue<T>(_ value: T, at index: Swift.Int)
