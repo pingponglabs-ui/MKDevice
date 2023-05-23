@@ -3213,133 +3213,133 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
-      "offset": 5964,
+      "offset": 5989,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
-      "offset": 8351,
+      "offset": 8376,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
-      "offset": 12465,
+      "offset": 12538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
-      "offset": 12491,
+      "offset": 12564,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "Array",
-      "offset": 12521,
+      "offset": 12594,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 15437,
+      "offset": 15510,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 17821,
+      "offset": 17894,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 29447,
+      "offset": 29520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 29639,
+      "offset": 29712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 29832,
+      "offset": 29905,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30004,
+      "offset": 30077,
       "length": 5,
       "value": "0.067"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30018,
+      "offset": 30091,
       "length": 5,
       "value": "0.729"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30031,
+      "offset": 30104,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 30044,
+      "offset": 30117,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30089,
+      "offset": 30162,
       "length": 5,
       "value": "0.071"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30103,
+      "offset": 30176,
       "length": 5,
       "value": "0.195"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "FloatLiteral",
-      "offset": 30116,
+      "offset": 30189,
       "length": 5,
       "value": "0.213"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 30130,
+      "offset": 30203,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
       "kind": "StringLiteral",
-      "offset": 30424,
+      "offset": 30497,
       "length": 21313,
       "value": "\"\/\/\n\/\/  ShaderMain.metal\n\/\/  MeshTools\n\/\/\n\/\/  Created by Demian Nezhdanov on 01.10.2021.\n\/\/\n\n#include <metal_stdlib>\nusing namespace metal;\n\n\n\n\n\n\nstruct BufferData {\n\n    float2 position;\n    float2 pmouse;\n    float2 scale;\n    float rotation;\n    float intensity;\n    float topPos;\n    float bottomPos;\n    float leftPos;\n    float rightPos;\n    float2 res;\n    float2 viewRes;\n    float smoothness;\n    bool selected;\n \n};\n\n\n\n\n\n\n\/\/MARK:\n\nfloat3 blr(texture2d<float> tex, float2 uv, float rad){\n     constexpr sampler sam(filter::linear);\n     float3 blur = float3(0.0);\n    float2 res = float2( (tex.get_width()) , (tex.get_height()) );\n         float sum = 0.0;\n \n         for(float u = -rad; u<=rad; u+=5){\n             for(float v = -rad; v<=rad; v+=5){\n \n                 float weight = rad*10. - sqrt(u * u + v * v);\n                \/\/ uv + (float2(u, v)\/res)\n                 blur += weight * tex.sample(sam,uv + (float2(u, v)\/res)).rgb;\n                 sum += weight;\n             }\n         }\n         blur \/= sum;\n     \n    return blur;\n}\nfloat2 Distort(float2 p,  float2 d, float rad)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.0 + rad);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\nfloat line(float2 p, float2 a, float2 b,float2 res){\n    float2 pa = p-a;\n    float2 ba = b-a;\n\n    float t = clamp(dot(pa, ba)\/dot(ba,ba),0.,1.0);\n    float2 cv = pa - ba*t;\n    cv.y *= res.y\/res.x;\n    float d = length(cv);\n    if(distance(a, b)>2.){return 2.;}else{\n    return ( d);\n    }\n}\n\nfloat2 distort(float2 p,  float2 d)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,1.2);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\nfloat2 dist(float2 p,  float2 d,float r)\n{\n     p-=d;\n    float theta  = atan2(p.y, p.x);\n    float radius = length(p);\n    radius = pow(radius,r + 1.0);\n    p.x = radius * cos(theta);\n    p.y = radius * sin(theta);\n    p = (p\/1.0 + d);\n    return  (p);\n}\n\n\/\/MARK:\n\n\n\n\n\n\n\n\n\nstruct FinalVertexIn {\n     float3 position [[attribute(0)]];\n     float2 textureCoorinates [[attribute(1)]];\n};\n\n\nstruct VertexIn {\n     float2 position [[attribute(0)]];\n     float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertexOut {\n     float4 position [[position]];\n     float2 textureCoorinates;\n};\n\n\/\/MARK: vertex\n\n\nvertex VertexOut vrtx_shader(constant FinalVertexIn* vertexArray [[buffer(0)]],\n                             constant BufferData &buffer_slim [[buffer(3)]],\n                                constant BufferData &buffer_tall [[buffer(4)]],\n                             \n                          unsigned int vid [[vertex_id]]){\n    \n    FinalVertexIn vertexBuffer = vertexArray[vid];\n                            VertexOut vertexDataOut;\n\/\/                                vertexDataOut.position = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n\/\/                               vertexDataOut.textureCoorinates = vertexData.textureCoorinates.yx;\n\n    float aspect = buffer_slim.res.x \/ buffer_slim.res.y;\n    bool hor = aspect < 1.0;\n    float4 pos = float4(vertexBuffer.position.x, vertexBuffer.position.y, 0.0, hor ? vertexBuffer.position.z : vertexBuffer.position.z+0.2);\n    float2 texCoord = vertexBuffer.textureCoorinates;\n    texCoord.y = 1.0 - texCoord.y;\n   \n    float aE = buffer_slim.viewRes.x\/buffer_slim.viewRes.y;\n    float2 offset = float2(0.0);\n    \n    if(aspect < 1.0){\n        pos.x *= aspect;\n    }else{\n        aspect = buffer_slim.res.y \/ buffer_slim.res.x;\n        pos.y  *= aspect;\n\/\/        pos \/= aspect*3;\n    }\n    pos.x \/= aE;\n\/\/    if(aE < 1.0){\n\/\/        pos.x \/= aE;\n\/\/    }else{\n\/\/        pos.y *= aE;\n\/\/    }\n    \n    \n    \n    \/\/___________________________________________________________________________________________________________________\n    \n    \n  \n   float2 m = buffer_slim.position;\n   float slimIntensity = 1.0 + buffer_slim.intensity\/3.;\n   float center = m.x;\n   float width =  buffer_slim.scale.x\/5.;\n    \n    m.y = 1.0 - buffer_tall.position.y*2.;\n    float intensity = 1.0 + buffer_tall.intensity\/2.;\n    float height =  buffer_tall.scale.y\/5.;\n    \n    \n    \/\/ Перевод в локальные координаты\n    pos.x+=0.5;\n    pos.x -= m.x;\n    pos.x *= slimIntensity;\n    \n    if(abs(pos.x) >= width){\n        pos.x = pos.x + sign(pos.x) * width * (slimIntensity - 1.0);\n    }else{\n        pos.x = pos.x * slimIntensity;\n    }\n    \n    pos.x \/= slimIntensity;\n    pos.x += m.x;\n    pos.x-=0.5;\n    \n   \n    pos.x+=0.5;\n    pos.y -=  m.y;\n    pos.y *= intensity;\n    pos.y = abs(pos.y) >= height ? pos.y + sign(pos.y) * height * (intensity - 1.0): pos.y * intensity;\n    \n    pos.x \/=  1.0 + (buffer_tall.intensity\/3. * height\/2 );\n    pos.y \/= intensity;\n    pos.y +=  m.y;\n    pos.x-=0.5;\n    \n    pos.x += (buffer_tall.intensity\/3. * height\/2 )\/2;\n    if (hor) {\n        pos.xy \/=  1.0 + (buffer_tall.intensity\/2. * height\/1.5 );\n    }\n\/\/    pos \/= aspect\/1.5;\n    \n    \n    vertexDataOut.position = pos;\n    vertexDataOut.textureCoorinates = texCoord;\n    \n    return vertexDataOut;\n}\n\nvertex VertexOut vertex_shader(constant VertexIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               constant BufferData &buffer [[buffer(1)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertexIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\/\/\n\/\/    texcoord.y -= 0.5;\n\/\/    texcoord.y *= 1.0 + buffer.intensity;\n\/\/\n\/\/    texcoord.y += 0.5;\n    float2 m = buffer.position; m.y = 1.0 - m.y;\n    float intensity =  buffer.intensity;\n\n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\nvertex VertexOut vertex_final_shader(constant VertexIn* vertexArray [[buffer(0)]],\n                               texture2d<float, access::sample> drQW [[texture(17)]],\n                               unsigned int vid [[vertex_id]]) {\n     \n     VertexIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n    float4 pos = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n    float2 texcoord = vertexData.textureCoorinates.xy;\n\n\/\/    pos.xy += dcol;\n    \n    vertexDataOut.position = pos;\n     vertexDataOut.textureCoorinates = texcoord;\n    \n    \n        \n     return vertexDataOut;\n}\n\n\n\n\n\/\/MARK: vertex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconstexpr sampler sam( filter::linear, address::clamp_to_edge  );\n\n\n\n\n\/\/MARK: slim\n\nfragment float4 slim(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n\n    float2 uv = fragmentIn.textureCoorinates;\n    float2 res = float2(img.get_width(),img.get_height());\n\n    uv.y = 1.0 - uv.y;\n   float2 m = buffer.position; m.y = 1.0 - m.y;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 - buffer.intensity\/3.;\n    float2 po = uv;\n\n    float center = m.x;\n    \n    float width =  buffer.scale.x\/10.;\n\/\/    float f =\n    \/\/ Перевод в локальные координаты\n    po.x -= m.x;\n    po.x *= intensity;\n    \n    float ScaleFactor = width > 0.0 ? abs(po.x) \/ width : 0.0;\n    \n\/\/    po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n\/\/    po.x *=intensity;\n    if(abs(po.x) >= width){\n        po.x = po.x + sign(po.x) * width * (intensity - 1.0);\n    }else{\n        po.x = po.x * intensity;\n    }\n\/\/    po.x = abs(po.x) >= width ? po.x + sign(po.x) * width * (intensity - 1.0): po.x * intensity;\n  \n    \n    po.x \/= intensity;\n    po.x += m.x;\n   \n\n   float3 color = img.sample(sam, uv ).rgb;\n\n   \n    \n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.005, abs(width - abs(po.x - center))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.045, abs(ScaleFactor)));\n    }\n\/\/    color += col;\n    return float4(color, 1.0);\n   \n}\n\n\n\n\/\/MARK: tall\nfragment float4 tall(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n    uv.y = 1.0 - uv.y;\n    float2 m = buffer.position; m.y = 1.0 - m.y;\n    m.x = 1.0 - m.x;\n\/\/    m.y = 1.0 - buffer.position.y;\n\n    float3 color = float3(0.0);\n    \n    \n    \n    float2 po = uv;\n\/\/    float intensity = 1.0 - buffer.intensity\/3.;\n    float height =  buffer.scale.y\/6.;\n  \n    color = img.sample(sam, uv ).rgb;\n    \n    \n    if( buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n       color = mix(float3(1.0, 0.0, 0.0), color, 0.5 + 0.5 * step(0.01, abs(height - abs(po.y - m.y))));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, 0.5 + 0.5 * step(0.08, abs(height > 0.0 ? abs(po.y) \/ height : 0.0)));\n    }\n    \n    \n\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/MARK: head\nfragment float4 head(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n    uv.y = 1.0 - uv.y;\n   float2 m = buffer.position; m.y = 1.0 - m.y;\n    m.x = 1.0 - m.x;\n   float intensity = abs(1.0 + buffer.intensity*2);\n   float3 color = float3(0.0);\n    float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    float2 scale = buffer.scale\/2. + 0.0001;\n    \n    \n    float aspect = res.y \/ res.x;\n\/\/    uv.x *=aspect;\n    float area = length(float2(uv.x,uv.y*aspect) - float2(m.x,m.y * aspect));\n    float smooth =  buffer.smoothness;\n    area = smoothstep(scale.x ,scale.x *(1.0 - smooth) , (area));\n    \n  \n    uv-=m;\n    \n    float2 dis = uv;\n    float2 dismin = uv;\/\/Distort(uv, po, intensity\/112. );\n    dis \/= 1. + intensity\/1.;\n    dismin *= 1. + intensity\/1.;\n    if(buffer.intensity>=0.0){\n        uv = mix(uv,dis,area*abs(buffer.intensity*2.));\n    }else{\n        uv = mix(uv,dismin,area*abs(buffer.intensity*2.));\n    }\n\/\/    uv.x *=aspect;\n    uv+=m;\n    \n    \n    \n    color = img.sample(sam, uv ).rgb;\n    float PatternRadius = scale.x  ;\n    po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n\/\/    color += float3(area);\n    return float4(color, 1.0);\n}\n\n#define M_PI 3.14159\n\n\/\/Настройка Фигуры - Степень\n#define HIPS_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - волчёк, 1.0 - квадрат)\n#define HIPS_FORM 0.3\n\n\/\/Отладочная информация\n\/\/#define DEBUG_DRAW_FRAME\n\n\/\/Temp code (make it uniform)\n\/\/float HalfWidth = 0.1;\n\/\/float HalfHeight = 0.1;\n\/\/float RotateAngle = 0.0;\n\/\/float StretchFactor = 1.0;\n\/\/vec2 PatternCenter = vec2(0.5, 0.5);\n\/\/MARK: hips\nfragment float4 hips(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.x = 1.0 - uv.x;\n    uv.y = 1.0 - uv.y;\n   float2 m = buffer.position; m.y = 1.0 - m.y;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity*2;\n   float3 color = float3(0.0);\n    float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n    float2 po = uv - m;\n    po.y *= res.y \/ res.x;\n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n\n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(1.0 - pow(h, HIPS_POWER), 1.0, HIPS_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    t =  mix(mix(0.0, 1.0, w), 1.0, t);\n    \/\/Искажение по ширине, t - Фактор искажения, StretchFactor - сила искажения\n    poRotate.x \/= mix(intensity, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    \/\/ Выборка текстуры, на которую используется фильтр\n    color = img.sample(sam, po ).rgb;\n    \/\/ Код для отладки - вывод рамки, и центра\n\n    if(buffer.selected){\n        \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\n\n\n\/\/Настройка Фигуры - Степень\n#define WAIST_POWER 2.0\n\/\/Настройка Фигуры - Форма (0.0 - песочные часы, 1.0 - квадрат)\n#define WAIST_FORM 0.6\n\n\n\/\/MARK: waist\nfragment float4 waist(VertexOut fragmentIn [[stage_in]],\n                               constant BufferData &buffer [[buffer(0)]],\n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    \n    \n    \n    float2 uv = fragmentIn.textureCoorinates;\n    uv.y = 1.0 - uv.y;\n\/\/    uv.x = 1.0 - uv.x;\n   float2 m = buffer.position; m.y = 1.0 - m.y;\n    m.x = 1.0 - m.x;\n   float intensity = 1.0 + buffer.intensity;\n   float3 color = float3(0.0);\n    float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n  \n    float2 po = uv - m;\n    \n    \n    float HalfWidth = buffer.scale.x\/2.;\n    float HalfHeight = buffer.scale.y\/2.;\n    float rotation = buffer.rotation;\n    float CompressFactor = intensity;\n    \n    po.y *= res.y \/ res.x;\n    \n    \/\/Координаты, которые будем вращать\n    float2 poRotate = po;\n    \n    \/\/Вращаем изображение под нужный угол\n    poRotate.x = po.x * cos(-rotation) - po.y * sin(-rotation);\n    poRotate.y = po.x * sin(-rotation) + po.y * cos(-rotation);\n    \n    \/\/w - фактор затухания по Ширине, h - фактор затухания по высоте\n    float w = clamp(abs(poRotate.x) \/ HalfWidth, 0.0, 1.0);\n    float h = clamp(abs(poRotate.y) \/ HalfHeight, 0.0, 1.0);\n    \n    \/\/Расчет формы, t - Фактор искажения\n    float t = mix(pow(h, WAIST_POWER), 1.0, WAIST_FORM);\n    t = 1.0 - mix(clamp((t - w), 0.0, 1.0), 0.0, h);\n    \n    \/\/Искажение по ширине, t - Фактор искажения, CompressFactor - сила искажения\n    poRotate.x *= mix(CompressFactor, 1.0, t);\n    \n    \/\/Возвращаем изначальный поворот\n    po.x = poRotate.x * cos(rotation) - poRotate.y * sin(rotation);\n    po.y = poRotate.x * sin(rotation) + poRotate.y * cos(rotation);\n    \n    \/\/Возвращаем изначальный масштаб\n    po.y *= res.x \/ res.y;\n    \n    \/\/Прибавляем цент обратно\n    po += m;\n\n    color = img.sample(sam, po ).rgb;\n    \n    if(buffer.selected){\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.01, abs(t - 0.98)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(fragmentIn.textureCoorinates*res, m * res.xy)));\n    }\n\n    \/\/ Вывод конечного изображения\n    return float4(color, 1.0);\n}\n\n\nfragment float4 move(VertexOut fragmentIn [[stage_in]],\n                     constant BufferData &buffer [[buffer(0)]],\n           texture2d<float, access::sample> img [[texture(1)]]) {\n\n     float2 uv = fragmentIn.textureCoorinates;\n     \/\/    uv.x = 1.0 - uv.x;\n\/\/     uv.y = 1.0 - uv.y;\n     float2 m = buffer.position; m.y = 1.0 - m.y;\n     m.x = 1.0 - m.x;\n     float intensity = abs(1.0 + buffer.intensity*2);\n     float3 color = float3(0.0);\n     float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n     float2 po = uv - m;\n     float2 scale = buffer.intensity + 0.1;\n\n\n\n\n     color = img.sample(sam, uv ).rgb;\n     float PatternRadius = scale.x  ;\n     po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n    \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n    \/\/    color += float3(area);\nreturn float4(color, 1.0);\n}\n\n\nfragment float4 shrink(VertexOut fragmentIn [[stage_in]],\n                     constant BufferData &buffer [[buffer(0)]],\n           texture2d<float, access::sample> img [[texture(1)]]) {\n\n     float2 uv = fragmentIn.textureCoorinates;\n     \/\/    uv.x = 1.0 - uv.x;\n\/\/     uv.y = 1.0 - uv.y;\n     float2 m = buffer.position; m.y = 1.0 - m.y;\n     m.x = 1.0 - m.x;\n     float intensity = abs(1.0 + buffer.intensity*2);\n     float3 color = float3(0.0);\n     float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n     float2 po = uv - m;\n     float2 scale = buffer.scale\/2. + 0.0001;\n\n\n\n\n     color = img.sample(sam, uv ).rgb;\n     float PatternRadius = scale.x  ;\n     po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n    \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n    \/\/    color += float3(area);\nreturn float4(color, 1.0);\n}\n\nfragment float4 grow(VertexOut fragmentIn [[stage_in]],\n                     constant BufferData &buffer [[buffer(0)]],\n           texture2d<float, access::sample> img [[texture(1)]]) {\n\n     float2 uv = fragmentIn.textureCoorinates;\n     \/\/    uv.x = 1.0 - uv.x;\n\/\/     uv.y = 1.0 - uv.y;\n     float2 m = buffer.position; m.y = 1.0 - m.y;\n     m.x = 1.0 - m.x;\n     float intensity = abs(1.0 + buffer.intensity*2);\n     float3 color = float3(0.0);\n     float2 res = buffer.res;\/\/float2(img.get_width(),img.get_height());\n     float2 po = uv - m;\n     float2 scale = buffer.scale\/2. + 0.0001;\n\n\n\n\n     color = img.sample(sam, uv ).rgb;\n     float PatternRadius = scale.x  ;\n     po.y *= res.y \/ res.x;\n    float FadeFactor = clamp(length(po) \/ PatternRadius, 0.0, 1.0);\n    \/\/ Код для отладки - вывод рамки, и центра\n    if(buffer.selected){\n    \/\/ Код для отладки - вывод рамки\n        color = mix(float3(1.0, 0.0, 0.0), color, step(0.022, abs(FadeFactor - 0.95)));\n        \/\/ Код для отладки - вывод центра\n        color = mix(float3(0.0, 1.0, 0.0), color, step(2.0, distance(uv*res, m * res.xy)));\n    }\n    \/\/    color += float3(area);\nreturn float4(color, 1.0);\n}\n\n\/\/MARK: final_fragment\nfragment float4 final_fragment(VertexOut fragmentIn [[stage_in]],\n                            \n                     texture2d<float, access::sample> img [[texture(1)]]) {\n    float2 uv = fragmentIn.textureCoorinates;\n    uv.x = 1.0 - uv.x;\n\n    float3 color = img.sample(sam, uv ).rgb;\n    return float4(color, 1.0);\n}\n\n\""
     }
