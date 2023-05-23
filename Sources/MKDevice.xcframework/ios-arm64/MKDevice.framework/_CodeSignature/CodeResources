@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jn5l+BY8BDPTiW5cZio/h9yj2gQ=
+		D0Qmyl4cxV0Ax9BQNkXHeXrTZB0=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		o/RfXXWKN8iz+hcii5/0Nsw5+WY=
+		PoQAbBeX5lBFy/VQeuKgNhAKzgM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+g9OQ7DCIRkezwq5aKHIVZekf0NET46tGZmH8cNse8=
+			53F78giLfiBZOH7Sb6+Y/PFDRY0m/3Tf4m6Ke6W9nP4=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gQeXh7DMDm8jo4hEvIqvagKiMnqGvaUOuHmFwvGr28=
+			RbD2WhPtGSKsOo8PRWAjCu+8KIIyW1pgTwgkpBATqdM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
