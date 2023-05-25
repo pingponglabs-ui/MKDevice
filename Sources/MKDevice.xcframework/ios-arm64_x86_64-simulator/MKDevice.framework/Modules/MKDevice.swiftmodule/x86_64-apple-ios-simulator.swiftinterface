@@ -32,6 +32,7 @@ public struct UBuffer : Swift.Equatable {
 }
 public class BodyTools : Foundation.ObservableObject {
   public init()
+  public func resetValues()
   public var image: UIKit.UIImage {
     get
   }
