@@ -28,6 +28,7 @@ public struct UBuffer : Swift.Equatable {
   public var viewRes: simd.float2
   public var smoothness: Swift.Float
   public var selected: Swift.Bool
+  public var deviceScale: Swift.Float
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
 public class BodyTools : Foundation.ObservableObject {
