@@ -11,6 +11,7 @@ import ModelIO
 import SceneKit
 import Swift
 import SwiftUI
+import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
 import simd
@@ -34,10 +35,8 @@ public struct UBuffer : Swift.Equatable {
 public class BodyTools : Foundation.ObservableObject {
   public init()
   public func resetValues()
+  @objc deinit
   public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
-  public var image: UIKit.UIImage {
-    get
-  }
   public var index: Swift.Int {
     get
     set(newVal)
@@ -63,7 +62,6 @@ public class BodyTools : Foundation.ObservableObject {
   }
   public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
 }
 public struct VertexData {
 }

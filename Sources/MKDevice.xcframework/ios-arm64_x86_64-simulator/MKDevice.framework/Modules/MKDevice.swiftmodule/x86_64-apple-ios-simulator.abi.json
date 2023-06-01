@@ -1527,46 +1527,6 @@
           },
           {
             "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice9BodyToolsC5imageSo7UIImageCvp",
-            "mangledName": "$s8MKDevice9BodyToolsC5imageSo7UIImageCvp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice9BodyToolsC5imageSo7UIImageCvg",
-                "mangledName": "$s8MKDevice9BodyToolsC5imageSo7UIImageCvg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "index",
             "printedName": "index",
             "children": [
@@ -1582,7 +1542,8 @@
             "mangledName": "$s8MKDevice9BodyToolsC5indexSivp",
             "moduleName": "MKDevice",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2193,6 +2154,13 @@
         "kind": "Import",
         "name": "simd",
         "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "MKDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
         "declKind": "Import",
         "moduleName": "MKDevice"
       },
@@ -3302,30 +3270,37 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1991,
+      "offset": 2023,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 2024,
+      "offset": 2056,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 2048,
+      "offset": 2080,
       "length": 66,
       "value": "[\"slim\", \"tall\", \"head\", \"hips\", \"waist\", \"move\", \"move\", \"move\"]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2141,
+      "offset": 2173,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7259,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/Metal\/MDevice.swift",
