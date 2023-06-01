@@ -63,12 +63,6 @@ public class BodyTools : Foundation.ObservableObject {
   public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
-public struct VertexData {
-}
-public struct VData {
-}
-public struct VnewData {
-}
 public struct PPState {
 }
 public struct Buffer {
