@@ -12,9 +12,50 @@ import SceneKit
 import Swift
 import SwiftUI
 import UniformTypeIdentifiers
+import Vision
 import _Concurrency
 import _StringProcessing
 import simd
+public enum ReshapeToolType : Swift.String, Swift.CaseIterable {
+  case slim, tall, head, waist, hips, move, shrink, grow
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.ReshapeToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.ReshapeToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum RetouchToolType : Swift.String, Swift.CaseIterable {
+  case smooth, spot_heal, dark_circle, details, eye_color, whiten
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.RetouchToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.RetouchToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Tools : Swift.String, Swift.CaseIterable {
+  case reshape, retouch, filters, adjust, crop, transform, layers
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.Tools]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.Tools] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PPState {
+}
+public struct Buffer {
+}
 public struct UBuffer : Swift.Equatable {
   public var pos: simd.float2
   public var pmouse: simd.float2
@@ -33,12 +74,42 @@ public struct UBuffer : Swift.Equatable {
   public var isHorisontal: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
-public class BodyTools : Foundation.ObservableObject {
+@_hasMissingDesignatedInitializers public class MTLSegment {
+  public var eraseTexture: Metal.MTLTexture!
+  public var first_fragState: Metal.MTLRenderPipelineState
+  public var second_fragState: Metal.MTLRenderPipelineState
+  @objc deinit
+}
+extension Metal.MTLTexture {
+  public var cgImage: CoreGraphics.CGImage? {
+    get
+  }
+}
+extension Metal.MTLTexture {
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
+public class PhotoEditorTools : Foundation.ObservableObject {
   public init()
   public func resetValues()
   @objc deinit
   public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
-  public var index: Swift.Int {
+  public var toolMain: MKDevice.Tools {
+    get
+    set(newVal)
+  }
+  public var getLayer: QuartzCore.CALayer? {
+    get
+  }
+  public var getTexture: Metal.MTLTexture? {
+    get
+  }
+  public var reshapeTool: MKDevice.ReshapeToolType {
+    get
+    set(newVal)
+  }
+  public var retouchTool: MKDevice.RetouchToolType {
     get
     set(newVal)
   }
@@ -50,25 +121,22 @@ public class BodyTools : Foundation.ObservableObject {
     get
     set(newVal)
   }
+  public var erase: Swift.Bool {
+    get
+    set(newVal)
+  }
   public var uniforms: MKDevice.UBuffer {
     get
     set(newVal)
   }
   public func setImage(uiimage: UIKit.UIImage)
   public func updateView()
-  public func swap()
   public var mView: MetalKit.MTKView {
     get
     set(newVal)
   }
   public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-}
-public struct PPState {
-}
-public struct Buffer {
-}
-public struct Byte {
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertToPosCoord() -> simd.float2
@@ -103,13 +171,12 @@ extension UIKit.UIColor {
     get
   }
 }
-extension Metal.MTLTexture {
-  public var cgImage: CoreGraphics.CGImage? {
-    get
-  }
-}
-extension Metal.MTLTexture {
-  public var size: CoreFoundation.CGSize {
-    get
-  }
-}
+extension MKDevice.ReshapeToolType : Swift.Equatable {}
+extension MKDevice.ReshapeToolType : Swift.Hashable {}
+extension MKDevice.ReshapeToolType : Swift.RawRepresentable {}
+extension MKDevice.RetouchToolType : Swift.Equatable {}
+extension MKDevice.RetouchToolType : Swift.Hashable {}
+extension MKDevice.RetouchToolType : Swift.RawRepresentable {}
+extension MKDevice.Tools : Swift.Equatable {}
+extension MKDevice.Tools : Swift.Hashable {}
+extension MKDevice.Tools : Swift.RawRepresentable {}
