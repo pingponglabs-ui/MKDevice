@@ -4,18 +4,86 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Accelerate
+import CoreImage.CIFilterBuiltins
 import Combine
+import CoreImage
 import Foundation
 import MetalKit
 import ModelIO
 import SceneKit
 import Swift
 import SwiftUI
+import UIKit
 import UniformTypeIdentifiers
 import Vision
 import _Concurrency
 import _StringProcessing
 import simd
+public struct PPState {
+}
+public struct Buffer {
+}
+public struct UBuffer : Swift.Equatable {
+  public var pos: simd.float2
+  public var pmouse: simd.float2
+  public var scale: simd.float2
+  public var rotation: Swift.Float
+  public var intensity: Swift.Float
+  public var topPos: Swift.Float
+  public var bottomPos: Swift.Float
+  public var leftPos: Swift.Float
+  public var rightPos: Swift.Float
+  public var res: simd.float2
+  public var viewRes: simd.float2
+  public var smoothness: Swift.Float
+  public var selected: Swift.Bool
+  public var deviceScale: Swift.Float
+  public var isHorisontal: Swift.Bool
+  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
+}
+extension Swift.SIMD2 where Scalar == Swift.Float {
+  public func convertToPosCoord() -> simd.float2
+}
+extension Swift.SIMD2 where Scalar == Swift.Float {
+  public func convertToTexCoord() -> simd.float2
+}
+extension Metal.MTLRenderCommandEncoder {
+  public func setVertexValue<T>(_ value: T, at index: Swift.Int)
+  public func setVertexValue<T>(_ value: [T], at index: Swift.Int)
+  public func setFragmentValue<T>(_ value: T, at index: Swift.Int)
+  public func setFragmentValue<T>(_ value: [T], at index: Swift.Int)
+  public func setVertexTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
+  public func setVertexTextures(_ textures: Metal.MTLTexture?..., startingAt startIndex: Swift.Int = 0)
+  public func setFragmentTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
+}
+extension UIKit.UIColor {
+  public static let green_l: UIKit.UIColor
+  public static let green_d: UIKit.UIColor
+}
+extension UIKit.UIColor {
+  public var r: Swift.Double {
+    get
+  }
+  public var g: Swift.Double {
+    get
+  }
+  public var b: Swift.Double {
+    get
+  }
+  public var a: Swift.Double {
+    get
+  }
+}
+extension Metal.MTLTexture {
+  public var cgImage: CoreGraphics.CGImage? {
+    get
+  }
+}
+extension Metal.MTLTexture {
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
 public enum ReshapeToolType : Swift.String, Swift.CaseIterable {
   case slim, tall, head, waist, hips, move, shrink, grow
   public init?(rawValue: Swift.String)
@@ -52,43 +120,11 @@ public enum Tools : Swift.String, Swift.CaseIterable {
     get
   }
 }
-public struct PPState {
-}
-public struct Buffer {
-}
-public struct UBuffer : Swift.Equatable {
-  public var pos: simd.float2
-  public var pmouse: simd.float2
-  public var scale: simd.float2
-  public var rotation: Swift.Float
-  public var intensity: Swift.Float
-  public var topPos: Swift.Float
-  public var bottomPos: Swift.Float
-  public var leftPos: Swift.Float
-  public var rightPos: Swift.Float
-  public var res: simd.float2
-  public var viewRes: simd.float2
-  public var smoothness: Swift.Float
-  public var selected: Swift.Bool
-  public var deviceScale: Swift.Float
-  public var isHorisontal: Swift.Bool
-  public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
-}
 @_hasMissingDesignatedInitializers public class MTLSegment {
   public var eraseTexture: Metal.MTLTexture!
   public var first_fragState: Metal.MTLRenderPipelineState
   public var second_fragState: Metal.MTLRenderPipelineState
   @objc deinit
-}
-extension Metal.MTLTexture {
-  public var cgImage: CoreGraphics.CGImage? {
-    get
-  }
-}
-extension Metal.MTLTexture {
-  public var size: CoreFoundation.CGSize {
-    get
-  }
 }
 public class PhotoEditorTools : Foundation.ObservableObject {
   public init()
@@ -137,39 +173,6 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   }
   public func draw()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-}
-extension Swift.SIMD2 where Scalar == Swift.Float {
-  public func convertToPosCoord() -> simd.float2
-}
-extension Swift.SIMD2 where Scalar == Swift.Float {
-  public func convertToTexCoord() -> simd.float2
-}
-extension Metal.MTLRenderCommandEncoder {
-  public func setVertexValue<T>(_ value: T, at index: Swift.Int)
-  public func setVertexValue<T>(_ value: [T], at index: Swift.Int)
-  public func setFragmentValue<T>(_ value: T, at index: Swift.Int)
-  public func setFragmentValue<T>(_ value: [T], at index: Swift.Int)
-  public func setVertexTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
-  public func setVertexTextures(_ textures: Metal.MTLTexture?..., startingAt startIndex: Swift.Int = 0)
-  public func setFragmentTextures(_ textures: [Metal.MTLTexture?], startingAt startIndex: Swift.Int = 0)
-}
-extension UIKit.UIColor {
-  public static let green_l: UIKit.UIColor
-  public static let green_d: UIKit.UIColor
-}
-extension UIKit.UIColor {
-  public var r: Swift.Double {
-    get
-  }
-  public var g: Swift.Double {
-    get
-  }
-  public var b: Swift.Double {
-    get
-  }
-  public var a: Swift.Double {
-    get
-  }
 }
 extension MKDevice.ReshapeToolType : Swift.Equatable {}
 extension MKDevice.ReshapeToolType : Swift.Hashable {}
