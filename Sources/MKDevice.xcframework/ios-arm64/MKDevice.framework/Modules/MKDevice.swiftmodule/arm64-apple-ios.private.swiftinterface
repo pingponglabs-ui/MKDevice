@@ -41,6 +41,127 @@ public struct UBuffer : Swift.Equatable {
   public var isHorisontal: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
 }
+public class PhotoEditorTools : Foundation.ObservableObject {
+  public init(uiimage: UIKit.UIImage)
+  public var imageRect: CoreFoundation.CGRect {
+    get
+  }
+  public func resetValues()
+  @objc deinit
+  public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
+  public var history: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var main_tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var subTool: [Swift.String] {
+    get
+  }
+  public var toolMain: MKDevice.MainTools {
+    get
+    set(newVal)
+  }
+  public var getLayer: QuartzCore.CALayer? {
+    get
+  }
+  public var getTexture: Metal.MTLTexture? {
+    get
+  }
+  public var manualTool: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var useReshape: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var debugMode: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var erase: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var uniforms: MKDevice.UBuffer {
+    get
+    set(newVal)
+  }
+  public func setImage(uiimage: UIKit.UIImage)
+  public func updateView()
+  public var mView: MetalKit.MTKView {
+    get
+    set(newVal)
+  }
+  public func draw()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public enum ManualToolType : Swift.String, Swift.CaseIterable {
+  case move, shrink, grow
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.ManualToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.ManualToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BodyToolType : Swift.String, Swift.CaseIterable {
+  case slim, tall, head, waist, hips
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.BodyToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.BodyToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum RetouchToolType : Swift.String, Swift.CaseIterable {
+  case smooth, spot_heal, dark_circle, details, eye_color, whiten
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.RetouchToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.RetouchToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum MainTools : Swift.String, Swift.CaseIterable {
+  case manual, body, retouch, forms, filters, adjust, text
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.MainTools]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.MainTools] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public var reshapeToolType: [Swift.String]
+extension Metal.MTLTexture {
+  public var cgImage: CoreGraphics.CGImage? {
+    get
+  }
+}
+extension Metal.MTLTexture {
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertToPosCoord() -> simd.float2
 }
@@ -74,112 +195,21 @@ extension UIKit.UIColor {
     get
   }
 }
-extension Metal.MTLTexture {
-  public var cgImage: CoreGraphics.CGImage? {
-    get
-  }
-}
-extension Metal.MTLTexture {
-  public var size: CoreFoundation.CGSize {
-    get
-  }
-}
-public enum ReshapeToolType : Swift.String, Swift.CaseIterable {
-  case slim, tall, head, waist, hips, move, shrink, grow
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [MKDevice.ReshapeToolType]
-  public typealias RawValue = Swift.String
-  public static var allCases: [MKDevice.ReshapeToolType] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum RetouchToolType : Swift.String, Swift.CaseIterable {
-  case smooth, spot_heal, dark_circle, details, eye_color, whiten
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [MKDevice.RetouchToolType]
-  public typealias RawValue = Swift.String
-  public static var allCases: [MKDevice.RetouchToolType] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum Tools : Swift.String, Swift.CaseIterable {
-  case reshape, retouch, filters, adjust, crop, transform, layers
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [MKDevice.Tools]
-  public typealias RawValue = Swift.String
-  public static var allCases: [MKDevice.Tools] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class MTLSegment {
   public var eraseTexture: Metal.MTLTexture!
   public var first_fragState: Metal.MTLRenderPipelineState
   public var second_fragState: Metal.MTLRenderPipelineState
   @objc deinit
 }
-public class PhotoEditorTools : Foundation.ObservableObject {
-  public init()
-  public func resetValues()
-  @objc deinit
-  public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
-  public var toolMain: MKDevice.Tools {
-    get
-    set(newVal)
-  }
-  public var getLayer: QuartzCore.CALayer? {
-    get
-  }
-  public var getTexture: Metal.MTLTexture? {
-    get
-  }
-  public var reshapeTool: MKDevice.ReshapeToolType {
-    get
-    set(newVal)
-  }
-  public var retouchTool: MKDevice.RetouchToolType {
-    get
-    set(newVal)
-  }
-  public var useReshape: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var debugMode: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var erase: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var uniforms: MKDevice.UBuffer {
-    get
-    set(newVal)
-  }
-  public func setImage(uiimage: UIKit.UIImage)
-  public func updateView()
-  public var mView: MetalKit.MTKView {
-    get
-    set(newVal)
-  }
-  public func draw()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-}
-extension MKDevice.ReshapeToolType : Swift.Equatable {}
-extension MKDevice.ReshapeToolType : Swift.Hashable {}
-extension MKDevice.ReshapeToolType : Swift.RawRepresentable {}
+extension MKDevice.ManualToolType : Swift.Equatable {}
+extension MKDevice.ManualToolType : Swift.Hashable {}
+extension MKDevice.ManualToolType : Swift.RawRepresentable {}
+extension MKDevice.BodyToolType : Swift.Equatable {}
+extension MKDevice.BodyToolType : Swift.Hashable {}
+extension MKDevice.BodyToolType : Swift.RawRepresentable {}
 extension MKDevice.RetouchToolType : Swift.Equatable {}
 extension MKDevice.RetouchToolType : Swift.Hashable {}
 extension MKDevice.RetouchToolType : Swift.RawRepresentable {}
-extension MKDevice.Tools : Swift.Equatable {}
-extension MKDevice.Tools : Swift.Hashable {}
-extension MKDevice.Tools : Swift.RawRepresentable {}
+extension MKDevice.MainTools : Swift.Equatable {}
+extension MKDevice.MainTools : Swift.Hashable {}
+extension MKDevice.MainTools : Swift.RawRepresentable {}
