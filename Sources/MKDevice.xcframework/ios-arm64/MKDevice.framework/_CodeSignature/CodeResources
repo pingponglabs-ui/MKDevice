@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/MKDevice-Swift.h</key>
 		<data>
-		OEDrVMKpi7Wp7cXCUR9jkAMrbaQ=
+		VnMInl7x2dGhoy+84znlPAv2qr0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eU9ZBNdwiTeLypwsViG6ph42Ee0=
+		JbD9KAPChw9KzFbMiYmLd0fQuKM=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4DFXtGZFr6Oa8LtqEu4l3c/FyLA=
+		zuIgvSL/sZOtfjOwBS0/GP1tBgo=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		h0tHMkgRDRvwnZ5/alUXcjq87Jg=
+		C0Ir1Y5EPgPY5zoWJeAT8OyKCXA=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Ks+Jkxs6ighJtQmUmzfRYAqF8QI=
+		66YHS5LOVMnIvGBunFqlZf3ai5U=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		h0tHMkgRDRvwnZ5/alUXcjq87Jg=
+		C0Ir1Y5EPgPY5zoWJeAT8OyKCXA=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IE5CuVjfP8Mrwyja9zO8PkEUXLg=
+		shKJKdrc3X9l5IsQbPoNf1rnjPc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,42 +43,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBWG0AB5HFI0iTTu1tnK601k+n5FnuDWV7vZ6L4mR1g=
+			7FkGdt8tDgafvkNy4crnOigsMLcK4bq6l/fWcMXwguU=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W9uxYqH1FLuU2S6Dfs0vkMxLgG/fR18y9uSMt3kbFX8=
+			fnjTo11TlCVY5/LQKK51o7w6t6QWnZ3OgTB8bKpXlyY=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e2UUF7CNrThRIxgX8Fnpx5yQ29h8yk9Q2E30PDXtnQE=
+			/xD9gn0NAPmkSnDgWwXE+1rTxyiYS9g4u33vV2vd8M8=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xr2wyKudXcHlU5Ri/IYtDGhZiTytrzUL0ZsSW4c9H0I=
+			CJgFvWB8vbqwRGK7QXXGYkaiUBc139Mo2DzekCnfWrA=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e2UUF7CNrThRIxgX8Fnpx5yQ29h8yk9Q2E30PDXtnQE=
+			/xD9gn0NAPmkSnDgWwXE+1rTxyiYS9g4u33vV2vd8M8=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p1G/DpJQP7aRXVeB4Pc43bA1X83jEzIcFx3jOebS7WA=
+			PitZ9JwdoPAbaQIwty3rLn0JLTR4Dp9DE/DN7JMRc20=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

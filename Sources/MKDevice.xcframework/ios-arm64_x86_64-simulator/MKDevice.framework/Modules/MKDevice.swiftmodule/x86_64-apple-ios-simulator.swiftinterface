@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MKDevice
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MKDevice
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Accelerate
@@ -24,15 +24,11 @@ public struct PPState {
 public struct Buffer {
 }
 public struct UBuffer : Swift.Equatable {
-  public var pos: simd.float2
+  public var mouse: simd.float2
   public var pmouse: simd.float2
   public var scale: simd.float2
   public var rotation: Swift.Float
   public var intensity: Swift.Float
-  public var topPos: Swift.Float
-  public var bottomPos: Swift.Float
-  public var leftPos: Swift.Float
-  public var rightPos: Swift.Float
   public var res: simd.float2
   public var viewRes: simd.float2
   public var smoothness: Swift.Float
@@ -40,6 +36,179 @@ public struct UBuffer : Swift.Equatable {
   public var deviceScale: Swift.Float
   public var isHorisontal: Swift.Bool
   public static func == (a: MKDevice.UBuffer, b: MKDevice.UBuffer) -> Swift.Bool
+}
+public struct ManualTool {
+  public var debugMode: Swift.Bool
+  public var currentTool: MKDevice.ManualToolType
+  public var uniforms: [MKDevice.UBuffer]
+  public var buffers: [Metal.MTLBuffer]
+  public let tools: [Swift.String]
+  public var outputTexture: Metal.MTLTexture!
+  public var uniform: MKDevice.UBuffer {
+    get
+    set(val)
+  }
+  public var mtlBuffer: Metal.MTLBuffer {
+    get
+  }
+  public init(currentTool: MKDevice.ManualToolType, imageSize: CoreFoundation.CGSize, viewSize: CoreFoundation.CGSize)
+}
+@_hasMissingDesignatedInitializers public class EyeColorTool {
+  public var currentTool: MKDevice.EyeColorToolType {
+    get
+    set(val)
+  }
+  public var eyesColorMask: Metal.MTLTexture!
+  public var faceFloats: [simd.float2]
+  public var pupilsFloatsr: [simd.float2]
+  public var pupilsFloatsl: [simd.float2]
+  public var eyeScale: simd.float2
+  public var faceRect: CoreFoundation.CGRect
+  public var id: Swift.Int {
+    get
+  }
+  public func generatePhotoGreeting(foregroundImage: UIKit.UIImage) -> CoreImage.CIImage?
+  @objc deinit
+}
+public class PVImageRenderer {
+  public init()
+  @objc deinit
+}
+public class PhotoEditorTools : Foundation.ObservableObject {
+  public init(uiimage: UIKit.UIImage)
+  public var imageRect: CoreFoundation.CGRect {
+    get
+  }
+  public func resetValues()
+  @objc deinit
+  public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
+  public var lutsIcons: [UIKit.UIImage] {
+    get
+  }
+  public var lutsIntensity: Swift.Float {
+    get
+    set(newVal)
+  }
+  public var history: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var lutsIntesity: Swift.Float {
+    get
+    set(newVal)
+  }
+  public var lut_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var eye_color_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var main_tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var subTool: [Swift.String] {
+    get
+  }
+  public var toolMain: MKDevice.MainTools {
+    get
+    set(newVal)
+  }
+  public var getLayer: QuartzCore.CALayer? {
+    get
+  }
+  public var getTexture: Metal.MTLTexture? {
+    get
+  }
+  public var manualTool: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var useReshape: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var debugMode: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var erase: Swift.Bool {
+    get
+    set(newVal)
+  }
+  public var uniforms: MKDevice.UBuffer {
+    get
+    set(newVal)
+  }
+  public func setImage(uiimage: UIKit.UIImage)
+  public func updateView()
+  public var mView: MetalKit.MTKView {
+    get
+    set(newVal)
+  }
+  public func draw()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public struct AdjustTool {
+  public var debugMode: Swift.Bool
+  public var currentTool: MKDevice.AdjustToolType
+  public var uniforms: [MKDevice.UBuffer]
+  public var buffers: [Metal.MTLBuffer]
+  public var uniform: MKDevice.UBuffer {
+    get
+    set(val)
+  }
+  public init(currentTool: MKDevice.AdjustToolType, imageSize: CoreFoundation.CGSize, viewSize: CoreFoundation.CGSize)
+}
+public struct BodyTool {
+  public var debugMode: Swift.Bool
+  public var currentTool: MKDevice.BodyToolType
+  public var uniforms: [MKDevice.UBuffer]
+  public var buffers: [Metal.MTLBuffer]
+  public let tools: [Swift.String]
+  public var outputTexture: Metal.MTLTexture!
+  public var uniform: MKDevice.UBuffer {
+    get
+    set(val)
+  }
+  public var mtlBuffer: Metal.MTLBuffer {
+    get
+  }
+  public init(currentTool: MKDevice.BodyToolType, imageSize: CoreFoundation.CGSize, viewSize: CoreFoundation.CGSize)
+}
+extension Metal.MTLTexture {
+  public var cgImage: CoreGraphics.CGImage? {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class MFManager {
+  @objc deinit
+}
+extension Metal.MTLTexture {
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
+public class VisionTool {
+  public var monthTexture: Metal.MTLTexture!
+  public var eyesTexture: Metal.MTLTexture!
+  public var eyesWideTexture: Metal.MTLTexture!
+  public var faceTexture: Metal.MTLTexture!
+  public var teaTexture: Metal.MTLTexture!
+  public init(size: CoreFoundation.CGSize)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MTLSegment {
+  public var eraseTexture: Metal.MTLTexture!
+  public var first_fragState: Metal.MTLRenderPipelineState
+  public var second_fragState: Metal.MTLRenderPipelineState
+  @objc deinit
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertToPosCoord() -> simd.float2
@@ -74,22 +243,36 @@ extension UIKit.UIColor {
     get
   }
 }
-extension Metal.MTLTexture {
-  public var cgImage: CoreGraphics.CGImage? {
-    get
-  }
-}
-extension Metal.MTLTexture {
-  public var size: CoreFoundation.CGSize {
-    get
-  }
-}
-public enum ReshapeToolType : Swift.String, Swift.CaseIterable {
-  case slim, tall, head, waist, hips, move, shrink, grow
+public enum AdjustToolType : Swift.String, Swift.CaseIterable {
+  case brightness, contrast, saturation, shadows, highlights
   public init?(rawValue: Swift.String)
-  public typealias AllCases = [MKDevice.ReshapeToolType]
+  public typealias AllCases = [MKDevice.AdjustToolType]
   public typealias RawValue = Swift.String
-  public static var allCases: [MKDevice.ReshapeToolType] {
+  public static var allCases: [MKDevice.AdjustToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ManualToolType : Swift.String, Swift.CaseIterable {
+  case move, shrink, grow
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.ManualToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.ManualToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BodyToolType : Swift.String, Swift.CaseIterable {
+  case slim, tall, head, waist, hips
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.BodyToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.BodyToolType] {
     get
   }
   public var rawValue: Swift.String {
@@ -108,78 +291,99 @@ public enum RetouchToolType : Swift.String, Swift.CaseIterable {
     get
   }
 }
-public enum Tools : Swift.String, Swift.CaseIterable {
-  case reshape, retouch, filters, adjust, crop, transform, layers
+public enum EyeColorToolType : Swift.String, Swift.CaseIterable {
+  case smooth, spot_heal, dark_circle, details, eye_color, whiten
   public init?(rawValue: Swift.String)
-  public typealias AllCases = [MKDevice.Tools]
+  public typealias AllCases = [MKDevice.EyeColorToolType]
   public typealias RawValue = Swift.String
-  public static var allCases: [MKDevice.Tools] {
+  public static var allCases: [MKDevice.EyeColorToolType] {
     get
   }
   public var rawValue: Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class MTLSegment {
-  public var eraseTexture: Metal.MTLTexture!
-  public var first_fragState: Metal.MTLRenderPipelineState
-  public var second_fragState: Metal.MTLRenderPipelineState
+public enum BGToolType : Swift.String, Swift.CaseIterable {
+  case none, red, green, blue
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.BGToolType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.BGToolType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum EyeColors : Swift.String, Swift.CaseIterable {
+  case none, eye_blue, eye_brown, eye_green, eye_purple, eye_turquoise
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.EyeColors]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.EyeColors] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BackgroundColors : Swift.String, Swift.CaseIterable {
+  case none, red, green, blue
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.BackgroundColors]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.BackgroundColors] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum MainTools : Swift.String, Swift.CaseIterable {
+  case manual, body, retouch, forms, filters, adjust, text, background
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.MainTools]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.MainTools] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public var reshapeToolType: [Swift.String]
+extension Swift.RawRepresentable where Self : Swift.CaseIterable {
+  public static var allValues: [Self.RawValue] {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Luts {
   @objc deinit
 }
-public class PhotoEditorTools : Foundation.ObservableObject {
-  public init()
-  public func resetValues()
-  @objc deinit
-  public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
-  public var toolMain: MKDevice.Tools {
-    get
-    set(newVal)
-  }
-  public var getLayer: QuartzCore.CALayer? {
-    get
-  }
-  public var getTexture: Metal.MTLTexture? {
-    get
-  }
-  public var reshapeTool: MKDevice.ReshapeToolType {
-    get
-    set(newVal)
-  }
-  public var retouchTool: MKDevice.RetouchToolType {
-    get
-    set(newVal)
-  }
-  public var useReshape: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var debugMode: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var erase: Swift.Bool {
-    get
-    set(newVal)
-  }
-  public var uniforms: MKDevice.UBuffer {
-    get
-    set(newVal)
-  }
-  public func setImage(uiimage: UIKit.UIImage)
-  public func updateView()
-  public var mView: MetalKit.MTKView {
-    get
-    set(newVal)
-  }
-  public func draw()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-}
-extension MKDevice.ReshapeToolType : Swift.Equatable {}
-extension MKDevice.ReshapeToolType : Swift.Hashable {}
-extension MKDevice.ReshapeToolType : Swift.RawRepresentable {}
+extension MKDevice.AdjustToolType : Swift.Equatable {}
+extension MKDevice.AdjustToolType : Swift.Hashable {}
+extension MKDevice.AdjustToolType : Swift.RawRepresentable {}
+extension MKDevice.ManualToolType : Swift.Equatable {}
+extension MKDevice.ManualToolType : Swift.Hashable {}
+extension MKDevice.ManualToolType : Swift.RawRepresentable {}
+extension MKDevice.BodyToolType : Swift.Equatable {}
+extension MKDevice.BodyToolType : Swift.Hashable {}
+extension MKDevice.BodyToolType : Swift.RawRepresentable {}
 extension MKDevice.RetouchToolType : Swift.Equatable {}
 extension MKDevice.RetouchToolType : Swift.Hashable {}
 extension MKDevice.RetouchToolType : Swift.RawRepresentable {}
-extension MKDevice.Tools : Swift.Equatable {}
-extension MKDevice.Tools : Swift.Hashable {}
-extension MKDevice.Tools : Swift.RawRepresentable {}
+extension MKDevice.EyeColorToolType : Swift.Equatable {}
+extension MKDevice.EyeColorToolType : Swift.Hashable {}
+extension MKDevice.EyeColorToolType : Swift.RawRepresentable {}
+extension MKDevice.BGToolType : Swift.Equatable {}
+extension MKDevice.BGToolType : Swift.Hashable {}
+extension MKDevice.BGToolType : Swift.RawRepresentable {}
+extension MKDevice.EyeColors : Swift.Equatable {}
+extension MKDevice.EyeColors : Swift.Hashable {}
+extension MKDevice.EyeColors : Swift.RawRepresentable {}
+extension MKDevice.BackgroundColors : Swift.Equatable {}
+extension MKDevice.BackgroundColors : Swift.Hashable {}
+extension MKDevice.BackgroundColors : Swift.RawRepresentable {}
+extension MKDevice.MainTools : Swift.Equatable {}
+extension MKDevice.MainTools : Swift.Hashable {}
+extension MKDevice.MainTools : Swift.RawRepresentable {}
