@@ -3507,168 +3507,6 @@
           },
           {
             "kind": "Var",
-            "name": "tool_id",
-            "printedName": "tool_id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivp",
-            "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivg",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivs",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivM",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "main_tool_id",
-            "printedName": "main_tool_id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivp",
-            "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivg",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivs",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivM",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "subTool",
             "printedName": "subTool",
             "children": [
@@ -3720,87 +3558,6 @@
                 "mangledName": "$s8MKDevice16PhotoEditorToolsC7subToolSaySSGvg",
                 "moduleName": "MKDevice",
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "toolMain",
-            "printedName": "toolMain",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MainTools",
-                "printedName": "MKDevice.MainTools",
-                "usr": "s:8MKDevice9MainToolsO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovp",
-            "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovp",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainTools",
-                    "printedName": "MKDevice.MainTools",
-                    "usr": "s:8MKDevice9MainToolsO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovg",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovg",
-                "moduleName": "MKDevice",
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainTools",
-                    "printedName": "MKDevice.MainTools",
-                    "usr": "s:8MKDevice9MainToolsO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovs",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovs",
-                "moduleName": "MKDevice",
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0OvM",
-                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0OvM",
-                "moduleName": "MKDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -4468,6 +4225,816 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "toolManual",
+            "printedName": "toolManual",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ManualToolType",
+                "printedName": "MKDevice.ManualToolType",
+                "usr": "s:8MKDevice14ManualToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolManualAA0F8ToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolBody",
+            "printedName": "toolBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BodyToolType",
+                "printedName": "MKDevice.BodyToolType",
+                "usr": "s:8MKDevice12BodyToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BodyToolType",
+                    "printedName": "MKDevice.BodyToolType",
+                    "usr": "s:8MKDevice12BodyToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BodyToolType",
+                    "printedName": "MKDevice.BodyToolType",
+                    "usr": "s:8MKDevice12BodyToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolBodyAA0F8ToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolRetouch",
+            "printedName": "toolRetouch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RetouchToolType",
+                "printedName": "MKDevice.RetouchToolType",
+                "usr": "s:8MKDevice15RetouchToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RetouchToolType",
+                    "printedName": "MKDevice.RetouchToolType",
+                    "usr": "s:8MKDevice15RetouchToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RetouchToolType",
+                    "printedName": "MKDevice.RetouchToolType",
+                    "usr": "s:8MKDevice15RetouchToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolRetouchAA0F8ToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolForms",
+            "printedName": "toolForms",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ManualToolType",
+                "printedName": "MKDevice.ManualToolType",
+                "usr": "s:8MKDevice14ManualToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolFormsAA14ManualToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolFilters",
+            "printedName": "toolFilters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ManualToolType",
+                "printedName": "MKDevice.ManualToolType",
+                "usr": "s:8MKDevice14ManualToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC11toolFiltersAA14ManualToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolAdjust",
+            "printedName": "toolAdjust",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdjustToolType",
+                "printedName": "MKDevice.AdjustToolType",
+                "usr": "s:8MKDevice14AdjustToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdjustToolType",
+                    "printedName": "MKDevice.AdjustToolType",
+                    "usr": "s:8MKDevice14AdjustToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdjustToolType",
+                    "printedName": "MKDevice.AdjustToolType",
+                    "usr": "s:8MKDevice14AdjustToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC10toolAdjustAA0F8ToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolTitle",
+            "printedName": "toolTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ManualToolType",
+                "printedName": "MKDevice.ManualToolType",
+                "usr": "s:8MKDevice14ManualToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ManualToolType",
+                    "printedName": "MKDevice.ManualToolType",
+                    "usr": "s:8MKDevice14ManualToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC9toolTitleAA14ManualToolTypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolMain",
+            "printedName": "toolMain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainTools",
+                "printedName": "MKDevice.MainTools",
+                "usr": "s:8MKDevice9MainToolsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainTools",
+                    "printedName": "MKDevice.MainTools",
+                    "usr": "s:8MKDevice9MainToolsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainTools",
+                    "printedName": "MKDevice.MainTools",
+                    "usr": "s:8MKDevice9MainToolsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0Ovs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC8toolMainAA0fD0OvM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC8toolMainAA0fD0OvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tool_id",
+            "printedName": "tool_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC7tool_idSivM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC7tool_idSivM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "main_tool_id",
+            "printedName": "main_tool_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivp",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivg",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivs",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice16PhotoEditorToolsC12main_tool_idSivM",
+                "mangledName": "$s8MKDevice16PhotoEditorToolsC12main_tool_idSivM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -5835,6 +6402,1642 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "RetouchTool",
+        "printedName": "RetouchTool",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV9debugModeSbvp",
+            "mangledName": "$s8MKDevice11RetouchToolV9debugModeSbvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9debugModeSbvg",
+                "mangledName": "$s8MKDevice11RetouchToolV9debugModeSbvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9debugModeSbvs",
+                "mangledName": "$s8MKDevice11RetouchToolV9debugModeSbvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9debugModeSbvM",
+                "mangledName": "$s8MKDevice11RetouchToolV9debugModeSbvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTool",
+            "printedName": "currentTool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RetouchToolType",
+                "printedName": "MKDevice.RetouchToolType",
+                "usr": "s:8MKDevice15RetouchToolTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvp",
+            "mangledName": "$s8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RetouchToolType",
+                    "printedName": "MKDevice.RetouchToolType",
+                    "usr": "s:8MKDevice15RetouchToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvg",
+                "mangledName": "$s8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RetouchToolType",
+                    "printedName": "MKDevice.RetouchToolType",
+                    "usr": "s:8MKDevice15RetouchToolTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvs",
+                "mangledName": "$s8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvM",
+                "mangledName": "$s8MKDevice11RetouchToolV07currentC0AA0bC4TypeOvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buffers",
+            "printedName": "buffers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Metal.MTLBuffer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvp",
+            "mangledName": "$s8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Metal.MTLBuffer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLBuffer",
+                        "printedName": "Metal.MTLBuffer",
+                        "usr": "c:objc(pl)MTLBuffer"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvg",
+                "mangledName": "$s8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Metal.MTLBuffer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLBuffer",
+                        "printedName": "Metal.MTLBuffer",
+                        "usr": "c:objc(pl)MTLBuffer"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvs",
+                "mangledName": "$s8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvM",
+                "mangledName": "$s8MKDevice11RetouchToolV7buffersSaySo9MTLBuffer_pGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eyeColorTool",
+            "printedName": "eyeColorTool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "MKDevice.EyeColorTool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EyeColorTool",
+                    "printedName": "MKDevice.EyeColorTool",
+                    "usr": "s:8MKDevice12EyeColorToolC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "MKDevice.EyeColorTool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EyeColorTool",
+                        "printedName": "MKDevice.EyeColorTool",
+                        "usr": "s:8MKDevice12EyeColorToolC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "MKDevice.EyeColorTool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EyeColorTool",
+                        "printedName": "MKDevice.EyeColorTool",
+                        "usr": "s:8MKDevice12EyeColorToolC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV08eyeColorC0AA03EyeeC0CSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniforms",
+            "printedName": "uniforms",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MKDevice.UBuffer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvp",
+            "mangledName": "$s8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.UBuffer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UBuffer",
+                        "printedName": "MKDevice.UBuffer",
+                        "usr": "s:8MKDevice7UBufferV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvg",
+                "mangledName": "$s8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.UBuffer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UBuffer",
+                        "printedName": "MKDevice.UBuffer",
+                        "usr": "s:8MKDevice7UBufferV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvs",
+                "mangledName": "$s8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvM",
+                "mangledName": "$s8MKDevice11RetouchToolV8uniformsSayAA7UBufferVGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mtlDrawSegments",
+            "printedName": "mtlDrawSegments",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MKDevice.MTLSegment]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLSegment",
+                    "printedName": "MKDevice.MTLSegment",
+                    "usr": "s:8MKDevice10MTLSegmentC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvp",
+            "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.MTLSegment]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLSegment",
+                        "printedName": "MKDevice.MTLSegment",
+                        "usr": "s:8MKDevice10MTLSegmentC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvg",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.MTLSegment]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLSegment",
+                        "printedName": "MKDevice.MTLSegment",
+                        "usr": "s:8MKDevice10MTLSegmentC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvs",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvM",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawSegmentsSayAA10MTLSegmentCGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_smooth",
+            "printedName": "drawTextures_smooth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_smoothSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_spot",
+            "printedName": "drawTextures_spot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV17drawTextures_spotSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_darkcycle",
+            "printedName": "drawTextures_darkcycle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV22drawTextures_darkcycleSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_whiten",
+            "printedName": "drawTextures_whiten",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV19drawTextures_whitenSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_sharpen",
+            "printedName": "drawTextures_sharpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV20drawTextures_sharpenSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawTextures_eyecolor",
+            "printedName": "drawTextures_eyecolor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice11RetouchToolV21drawTextures_eyecolorSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mtlDrawTextures",
+            "printedName": "mtlDrawTextures",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MKDevice.DrawTextures]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DrawTextures",
+                    "printedName": "MKDevice.DrawTextures",
+                    "usr": "s:8MKDevice12DrawTexturesV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvp",
+            "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.DrawTextures]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DrawTextures",
+                        "printedName": "MKDevice.DrawTextures",
+                        "usr": "s:8MKDevice12DrawTexturesV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvg",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MKDevice.DrawTextures]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DrawTextures",
+                        "printedName": "MKDevice.DrawTextures",
+                        "usr": "s:8MKDevice12DrawTexturesV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvs",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvM",
+                "mangledName": "$s8MKDevice11RetouchToolV15mtlDrawTexturesSayAA0eF0VGvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV2idSivp",
+            "mangledName": "$s8MKDevice11RetouchToolV2idSivp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV2idSivg",
+                "mangledName": "$s8MKDevice11RetouchToolV2idSivg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mtlBuffer",
+            "printedName": "mtlBuffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLBuffer",
+                "printedName": "Metal.MTLBuffer",
+                "usr": "c:objc(pl)MTLBuffer"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvp",
+            "mangledName": "$s8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvg",
+                "mangledName": "$s8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvs",
+                "mangledName": "$s8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvM",
+                "mangledName": "$s8MKDevice11RetouchToolV9mtlBufferSo9MTLBuffer_pvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniform",
+            "printedName": "uniform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UBuffer",
+                "printedName": "MKDevice.UBuffer",
+                "usr": "s:8MKDevice7UBufferV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice11RetouchToolV7uniformAA7UBufferVvp",
+            "mangledName": "$s8MKDevice11RetouchToolV7uniformAA7UBufferVvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7uniformAA7UBufferVvg",
+                "mangledName": "$s8MKDevice11RetouchToolV7uniformAA7UBufferVvg",
+                "moduleName": "MKDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UBuffer",
+                    "printedName": "MKDevice.UBuffer",
+                    "usr": "s:8MKDevice7UBufferV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7uniformAA7UBufferVvs",
+                "mangledName": "$s8MKDevice11RetouchToolV7uniformAA7UBufferVvs",
+                "moduleName": "MKDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice11RetouchToolV7uniformAA7UBufferVvM",
+                "mangledName": "$s8MKDevice11RetouchToolV7uniformAA7UBufferVvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentTool:imageSize:viewSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RetouchTool",
+                "printedName": "MKDevice.RetouchTool",
+                "usr": "s:8MKDevice11RetouchToolV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RetouchToolType",
+                "printedName": "MKDevice.RetouchToolType",
+                "usr": "s:8MKDevice15RetouchToolTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MKDevice11RetouchToolV07currentC09imageSize04viewF0AcA0bC4TypeO_So6CGSizeVAJtcfc",
+            "mangledName": "$s8MKDevice11RetouchToolV07currentC09imageSize04viewF0AcA0bC4TypeO_So6CGSizeVAJtcfc",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MKDevice11RetouchToolV",
+        "mangledName": "$s8MKDevice11RetouchToolV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
@@ -6445,6 +8648,350 @@
         "moduleName": "MKDevice",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DrawTextures",
+        "printedName": "DrawTextures",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "textureOut",
+            "printedName": "textureOut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice12DrawTexturesV10textureOutSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emptyTexture",
+            "printedName": "emptyTexture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice12DrawTexturesV12emptyTextureSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brushTexture",
+            "printedName": "brushTexture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvp",
+            "mangledName": "$s8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvp",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvg",
+                "mangledName": "$s8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvg",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Metal.MTLTexture?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvs",
+                "mangledName": "$s8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvs",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvM",
+                "mangledName": "$s8MKDevice12DrawTexturesV12brushTextureSo10MTLTexture_pSgvM",
+                "moduleName": "MKDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MKDevice12DrawTexturesV",
+        "mangledName": "$s8MKDevice12DrawTexturesV",
+        "moduleName": "MKDevice",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -11885,35 +14432,35 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Tools\/PVRetouchToolModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 170,
+      "offset": 177,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Tools\/PVRetouchToolModel.swift",
       "kind": "Array",
-      "offset": 494,
+      "offset": 501,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Tools\/PVRetouchToolModel.swift",
       "kind": "Array",
-      "offset": 585,
+      "offset": 592,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Tools\/PVRetouchToolModel.swift",
       "kind": "Array",
-      "offset": 634,
+      "offset": 641,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Tools\/PVRetouchToolModel.swift",
       "kind": "Array",
-      "offset": 986,
+      "offset": 993,
       "length": 2,
       "value": "[]"
     },
@@ -12207,168 +14754,168 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 1685,
+      "offset": 1680,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1748,
+      "offset": 1743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1792,
+      "offset": 1787,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2063,
+      "offset": 2062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2093,
+      "offset": 2092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3161,
+      "offset": 3168,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3649,
       "length": 13,
       "value": "\"vrtx_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 3719,
+      "offset": 3726,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 3846,
+      "offset": 3853,
       "length": 13,
       "value": "\"vrtx_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 3923,
+      "offset": 3930,
       "length": 15,
       "value": "\"draw_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4013,
+      "offset": 4020,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4050,
+      "offset": 4057,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4081,
+      "offset": 4088,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4208,
+      "offset": 4215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4233,
+      "offset": 4240,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4263,
+      "offset": 4270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4292,
+      "offset": 4299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4326,
+      "offset": 4333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 4373,
+      "offset": 4380,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4414,
+      "offset": 4421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4453,
+      "offset": 4460,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4992,
+      "offset": 4999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10322,
+      "offset": 10329,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 10379,
+      "offset": 10386,
       "length": 9,
       "value": "\"segment\""
     }

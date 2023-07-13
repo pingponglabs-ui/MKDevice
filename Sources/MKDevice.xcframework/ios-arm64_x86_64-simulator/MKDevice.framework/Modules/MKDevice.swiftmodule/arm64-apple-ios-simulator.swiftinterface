@@ -105,20 +105,8 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     get
     set(newVal)
   }
-  public var tool_id: Swift.Int {
-    get
-    set(newVal)
-  }
-  public var main_tool_id: Swift.Int {
-    get
-    set(newVal)
-  }
   public var subTool: [Swift.String] {
     get
-  }
-  public var toolMain: MKDevice.MainTools {
-    get
-    set(newVal)
   }
   public var getLayer: QuartzCore.CALayer? {
     get
@@ -153,6 +141,46 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     set(newVal)
   }
   public func draw()
+  public var toolManual: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var toolBody: MKDevice.BodyToolType {
+    get
+    set(newVal)
+  }
+  public var toolRetouch: MKDevice.RetouchToolType {
+    get
+    set(newVal)
+  }
+  public var toolForms: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var toolFilters: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var toolAdjust: MKDevice.AdjustToolType {
+    get
+    set(newVal)
+  }
+  public var toolTitle: MKDevice.ManualToolType {
+    get
+    set(newVal)
+  }
+  public var toolMain: MKDevice.MainTools {
+    get
+    set(newVal)
+  }
+  public var tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
+  public var main_tool_id: Swift.Int {
+    get
+    set(newVal)
+  }
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 public struct AdjustTool {
@@ -195,6 +223,33 @@ extension Metal.MTLTexture {
     get
   }
 }
+public struct RetouchTool {
+  public var debugMode: Swift.Bool
+  public var currentTool: MKDevice.RetouchToolType {
+    get
+    set(val)
+  }
+  public var buffers: [Metal.MTLBuffer]
+  public var eyeColorTool: MKDevice.EyeColorTool!
+  public var uniforms: [MKDevice.UBuffer]
+  public var mtlDrawSegments: [MKDevice.MTLSegment]
+  public var drawTextures_smooth: Metal.MTLTexture!
+  public var drawTextures_spot: Metal.MTLTexture!
+  public var drawTextures_darkcycle: Metal.MTLTexture!
+  public var drawTextures_whiten: Metal.MTLTexture!
+  public var drawTextures_sharpen: Metal.MTLTexture!
+  public var drawTextures_eyecolor: Metal.MTLTexture!
+  public var mtlDrawTextures: [MKDevice.DrawTextures]
+  public var id: Swift.Int {
+    get
+  }
+  public var mtlBuffer: Metal.MTLBuffer
+  public var uniform: MKDevice.UBuffer {
+    get
+    set(val)
+  }
+  public init(currentTool: MKDevice.RetouchToolType, imageSize: CoreFoundation.CGSize, viewSize: CoreFoundation.CGSize)
+}
 public class VisionTool {
   public var monthTexture: Metal.MTLTexture!
   public var eyesTexture: Metal.MTLTexture!
@@ -203,6 +258,11 @@ public class VisionTool {
   public var teaTexture: Metal.MTLTexture!
   public init(size: CoreFoundation.CGSize)
   @objc deinit
+}
+public struct DrawTextures {
+  public var textureOut: Metal.MTLTexture!
+  public var emptyTexture: Metal.MTLTexture!
+  public var brushTexture: Metal.MTLTexture!
 }
 @_hasMissingDesignatedInitializers public class MTLSegment {
   public var eraseTexture: Metal.MTLTexture!
