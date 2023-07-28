@@ -14915,14 +14915,14 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12917,
+      "offset": 12919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 12974,
+      "offset": 12976,
       "length": 9,
       "value": "\"segment\""
     },
