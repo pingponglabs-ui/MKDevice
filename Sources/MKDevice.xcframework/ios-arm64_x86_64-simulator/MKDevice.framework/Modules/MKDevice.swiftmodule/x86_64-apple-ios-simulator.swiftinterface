@@ -76,7 +76,7 @@ public class VisionTool {
   public var id: Swift.Int {
     get
   }
-  public func generatePhotoGreeting(foregroundImage: UIKit.UIImage) -> CoreImage.CIImage?
+  public func generateBackgroundMask(foregroundImage: UIKit.UIImage) -> CoreImage.CIImage?
   @objc deinit
 }
 public struct AdjustTool {
@@ -97,7 +97,8 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   }
   public func resetValues()
   @objc deinit
-  public func exportImage(_ comp: (UIKit.UIImage) -> Swift.Void)
+  public func exportUIImage(_ comp: (UIKit.UIImage) -> Swift.Void)
+  public func exportCIImage(_ comp: (CoreImage.CIImage) -> Swift.Void)
   public var lutsIcons: [UIKit.UIImage] {
     get
   }
