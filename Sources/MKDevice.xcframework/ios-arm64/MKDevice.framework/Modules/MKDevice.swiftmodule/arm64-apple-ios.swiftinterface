@@ -151,6 +151,9 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     get
     set(newVal)
   }
+  public func saveReshapeStep()
+  public func undoManual()
+  public func redoManual()
   public func setImage(uiimage: UIKit.UIImage)
   public func updateView()
   public var mView: UIKit.UIView {
