@@ -16,7 +16,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+//         .package(url: "https://github.com/nzhddemian/MKDevice",   "0.0.2"..<"3.3.8" )
+        .package(url: "https://github.com/nzhddemian/MKDevice", Version(0,0,2)..<Version(3,3,8))
     ],
     targets: [
 
@@ -25,3 +26,14 @@ let package = Package(
             path: "./Sources/MKDevice.xcframework")
     ]
 )
+//let package = Package(
+//    name: “App”,
+//    dependencies: [
+//      .Package(url: “../Foo”, versions:
+//               Version(0,1,0)..<Version(2,0,0)),
+//      .Package(url: “../Foo”, majorVersion: 0),
+//      .Package(url: “../Foo”, majorVersion: 0, minor: 1),
+//      .Package(url: “../Foo”, Version(0, 1, 0)),
+//      .Package(url: “../Foo”, “0.1.0”),
+//    ]
+//)
