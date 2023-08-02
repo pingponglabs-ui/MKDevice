@@ -59,7 +59,7 @@ public class VisionTool {
   public var eyesWideTexture: Metal.MTLTexture!
   public var faceTexture: Metal.MTLTexture!
   public var teaTexture: Metal.MTLTexture!
-  public init(size: CoreFoundation.CGSize)
+  public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class EyeColorTool {
