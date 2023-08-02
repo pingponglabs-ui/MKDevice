@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
 //         .package(url: "https://github.com/nzhddemian/MKDevice",   "0.0.2"..<"3.3.8" )
-        .package(url: "https://github.com/nzhddemian/MKDevice", Version(0,0,2)..<Version(3,3,8))
+        .package(path: "https://github.com/nzhddemian/MKDevice")
     ],
     targets: [
 
