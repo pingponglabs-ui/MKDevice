@@ -91,7 +91,7 @@ public struct AdjustTool {
   public init(currentTool: MKDevice.AdjustToolType, imageSize: CoreFoundation.CGSize, viewSize: CoreFoundation.CGSize)
 }
 public class PhotoEditorTools : Foundation.ObservableObject {
-  public init(uiimage: UIKit.UIImage)
+  public init(uiimage: UIKit.UIImage, lutIconsWidth: CoreFoundation.CGFloat = 200)
   public var imageRect: CoreFoundation.CGRect {
     get
   }
@@ -99,6 +99,7 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   @objc deinit
   public func exportUIImage(_ comp: (UIKit.UIImage) -> Swift.Void)
   public func exportCIImage(_ comp: (CoreImage.CIImage) -> Swift.Void)
+  public var lutsUIIcons: [UIKit.UIImage]
   public var lutsIcons: [UIKit.UIImage] {
     get
   }
