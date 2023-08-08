@@ -97,8 +97,6 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   }
   public func resetValues()
   @objc deinit
-  public func exportUIImage(_ comp: (UIKit.UIImage) -> Swift.Void)
-  public func exportCIImage(_ comp: (CoreImage.CIImage) -> Swift.Void)
   public var lutsUIIcons: [UIKit.UIImage]
   public var lutsIcons: [UIKit.UIImage] {
     get
@@ -156,6 +154,8 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   public func undoManual()
   public func redoManual()
   public func setImage(uiimage: UIKit.UIImage)
+  public func exportUIImage(_ comp: (UIKit.UIImage) -> Swift.Void)
+  public func exportCIImage(_ comp: (CoreImage.CIImage) -> Swift.Void)
   public func updateView()
   public var mView: UIKit.UIView {
     get

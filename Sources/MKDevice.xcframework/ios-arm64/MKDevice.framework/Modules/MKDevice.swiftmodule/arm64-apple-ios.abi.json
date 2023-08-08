@@ -4054,88 +4054,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "exportUIImage",
-            "printedName": "exportUIImage(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIImage) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice16PhotoEditorToolsC13exportUIImageyyySo0F0CXEF",
-            "mangledName": "$s8MKDevice16PhotoEditorToolsC13exportUIImageyyySo0F0CXEF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "exportCIImage",
-            "printedName": "exportCIImage(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CoreImage.CIImage) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CIImage",
-                    "printedName": "CoreImage.CIImage",
-                    "usr": "c:objc(cs)CIImage"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MKDevice16PhotoEditorToolsC13exportCIImageyyySo0F0CXEF",
-            "mangledName": "$s8MKDevice16PhotoEditorToolsC13exportCIImageyyySo0F0CXEF",
-            "moduleName": "MKDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "lutsUIIcons",
             "printedName": "lutsUIIcons",
@@ -5360,6 +5278,88 @@
             "declKind": "Func",
             "usr": "s:8MKDevice16PhotoEditorToolsC8setImage7uiimageySo7UIImageC_tF",
             "mangledName": "$s8MKDevice16PhotoEditorToolsC8setImage7uiimageySo7UIImageC_tF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exportUIImage",
+            "printedName": "exportUIImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice16PhotoEditorToolsC13exportUIImageyyySo0F0CXEF",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC13exportUIImageyyySo0F0CXEF",
+            "moduleName": "MKDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exportCIImage",
+            "printedName": "exportCIImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreImage.CIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CIImage",
+                    "printedName": "CoreImage.CIImage",
+                    "usr": "c:objc(cs)CIImage"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MKDevice16PhotoEditorToolsC13exportCIImageyyySo0F0CXEF",
+            "mangledName": "$s8MKDevice16PhotoEditorToolsC13exportCIImageyyySo0F0CXEF",
             "moduleName": "MKDevice",
             "declAttributes": [
               "AccessControl"
@@ -14707,7 +14707,7 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/MetalViewModel.swift",
       "kind": "Array",
-      "offset": 2077,
+      "offset": 1497,
       "length": 2,
       "value": "[]"
     },
@@ -14721,7 +14721,7 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVImageRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 6363,
+      "offset": 6481,
       "length": 1757,
       "value": "\"\n\n\n\nkernel float4 filterLut(sampler tex, sampler lut, float intensity){\n\n\n            float2 uvD = destCoord();\n            float2 uv = samplerTransform(tex, uvD);\n\n     float3 color = float3(0);\n     float3 texColor = sample(tex, uv).rgb;\n     float yColor = texColor.b * 63.0;\n     float2 quad1 = float2(0);\n     quad1.y = floor(floor(yColor) \/ 8.0);\n     quad1.x = floor(yColor) - (quad1.y * 8.0);\n     float2 quad2 = float2(0);\n     quad2.y = floor(ceil(yColor) \/ 8.0);\n     quad2.x = ceil(yColor) - (quad2.y * 8.0);\n     float2 texPos1 = float2(0);\n    texPos1.x = (quad1.x * 0.125) + 0.5\/512.0 + ((0.125 - 1.0\/512.0) * texColor.r);\n    texPos1.y = (quad1.y * 0.125) + 0.5\/512.0 + ((0.125 - 1.0\/512.0) * texColor.g);\n     float2 texPos2 = float2(0);\n    texPos2.x = (quad2.x * 0.125) + 0.5\/512.0 + ((0.125 - 1.0\/512.0) * texColor.r);\n    texPos2.y = (quad2.y * 0.125) + 0.5\/512.0 + ((0.125 - 1.0\/512.0) * texColor.g);\n     float3 newColor1 = float3(0);\n     float3 newColor2 = float3(0);\n     newColor1 =  sample(lut, texPos1).rgb;\n     newColor2 = sample(lut, texPos2).rgb;\n     float3 newColor = mix(newColor1, newColor2, fract(yColor));\nfloat4x4 brightnessMatrix = float4x4( 1, 0, 0, 0,\n                 0, 1, 0, 0,\n                 0, 0, 1, 0,\n                 0.1, 0.1, 0.1, 1 );\n    newColor =( brightnessMatrix * float4(newColor, 0.8)).rgb;\n     color = mix(texColor, newColor, intensity);\n  \n     return float4(color,1.0);\n}\""
     },
