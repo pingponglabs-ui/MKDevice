@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		j06ReFA1h2RtT2a/IdFRKpjbGA4=
+		g2iNy2WkV64bIUGCzhBVClsthME=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		j06ReFA1h2RtT2a/IdFRKpjbGA4=
+		g2iNy2WkV64bIUGCzhBVClsthME=
 		</data>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r9vezwcCTT5M/0Ke0x1z+7EzC38KWu+qu1rfgGD/N1o=
+			9yJt2pTXNrCyDpFuYnH2pb5mZjsl6n8WcHFXGjxXoAg=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r9vezwcCTT5M/0Ke0x1z+7EzC38KWu+qu1rfgGD/N1o=
+			9yJt2pTXNrCyDpFuYnH2pb5mZjsl6n8WcHFXGjxXoAg=
 			</data>
 		</dict>
 		<key>Modules/MKDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
