@@ -15765,147 +15765,147 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3744,
+      "offset": 3795,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3805,
+      "offset": 3856,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4382,
       "length": 13,
       "value": "\"vrtx_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 4408,
+      "offset": 4459,
       "length": 16,
       "value": "\"final_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 4535,
+      "offset": 4586,
       "length": 13,
       "value": "\"vrtx_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4663,
       "length": 15,
       "value": "\"draw_fragment\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4702,
+      "offset": 4753,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4739,
+      "offset": 4790,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "Array",
-      "offset": 4770,
+      "offset": 4821,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4807,
+      "offset": 4858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4943,
+      "offset": 4994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5069,
+      "offset": 5120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5094,
+      "offset": 5145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5124,
+      "offset": 5175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5153,
+      "offset": 5204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5187,
+      "offset": 5238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 5234,
+      "offset": 5285,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5275,
+      "offset": 5326,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5314,
+      "offset": 5365,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5855,
+      "offset": 5906,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/BodyFaceTune\/FaceBody\/FaceBodyTools\/FaceBodyTools\/SUIMetal\/Renderer\/PVMetalRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11772,
+      "offset": 11861,
       "length": 5,
       "value": "false"
     },
