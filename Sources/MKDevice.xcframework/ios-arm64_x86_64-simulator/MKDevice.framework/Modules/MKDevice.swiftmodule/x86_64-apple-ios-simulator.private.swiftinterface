@@ -142,10 +142,17 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     get
     set(newVal)
   }
+  public var touchState: MKDevice.PVTouchState {
+    get
+    set(newVal)
+  }
   public var erase: Swift.Bool {
     get
     set(newVal)
   }
+  public func setBottomTop(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
+  public func setLeftRight(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
+  public func setLocation(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
   public var uniforms: MKDevice.UBuffer {
     get
     set(newVal)
@@ -203,6 +210,9 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     set(newVal)
   }
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+extension CoreFoundation.CGPoint {
+  public func inRect(_ rect: CoreFoundation.CGRect) -> CoreFoundation.CGPoint
 }
 @_hasMissingDesignatedInitializers public class Luts {
   @objc deinit
@@ -409,6 +419,18 @@ extension Swift.RawRepresentable where Self : Swift.CaseIterable {
     get
   }
 }
+public enum PVTouchState : Swift.String, Swift.CaseIterable {
+  case began, moving, ended, doubleTouch, none
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MKDevice.PVTouchState]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MKDevice.PVTouchState] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct BodyTool {
   public var debugMode: Swift.Bool
   public var currentTool: MKDevice.BodyToolType
@@ -452,3 +474,6 @@ extension MKDevice.BackgroundColors : Swift.RawRepresentable {}
 extension MKDevice.MainTools : Swift.Equatable {}
 extension MKDevice.MainTools : Swift.Hashable {}
 extension MKDevice.MainTools : Swift.RawRepresentable {}
+extension MKDevice.PVTouchState : Swift.Equatable {}
+extension MKDevice.PVTouchState : Swift.Hashable {}
+extension MKDevice.PVTouchState : Swift.RawRepresentable {}
