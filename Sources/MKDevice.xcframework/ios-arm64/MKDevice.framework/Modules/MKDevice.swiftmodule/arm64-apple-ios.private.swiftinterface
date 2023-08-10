@@ -26,6 +26,8 @@ public struct Buffer {
 public struct UBuffer : Swift.Equatable {
   public var mouse: simd.float2
   public var pmouse: simd.float2
+  public var topLeft: simd.float2
+  public var rightBottom: simd.float2
   public var scale: simd.float2
   public var rotation: Swift.Float
   public var intensity: Swift.Float
