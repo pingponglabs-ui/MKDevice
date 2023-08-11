@@ -152,14 +152,20 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     get
     set(newVal)
   }
-  public func setBottomTop(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
-  public func setLeftRight(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
+  public func setBottomTop(bottom: CoreFoundation.CGFloat, top: CoreFoundation.CGFloat)
+  public func setLeftRight(left: CoreFoundation.CGFloat, right: CoreFoundation.CGFloat)
   public func setLocation(at position: CoreFoundation.CGPoint, _ state: MKDevice.PVTouchState)
   public var uniforms: MKDevice.UBuffer {
     get
     set(newVal)
   }
-  public func saveReshapeStep()
+  public func undo()
+  public func redo()
+  public func saveStep()
+  public func undoRetouch()
+  public func redoRetouch()
+  public func saveRetouchStep()
+  public func saveManualStep()
   public func undoManual()
   public func redoManual()
   public func setImage(uiimage: UIKit.UIImage)
@@ -215,6 +221,10 @@ public class PhotoEditorTools : Foundation.ObservableObject {
 }
 extension CoreFoundation.CGPoint {
   public func inRect(_ rect: CoreFoundation.CGRect) -> CoreFoundation.CGPoint
+}
+extension CoreFoundation.CGFloat {
+  public func inRectX(_ rect: CoreFoundation.CGRect) -> Swift.Float
+  public func inRectY(_ rect: CoreFoundation.CGRect) -> Swift.Float
 }
 @_hasMissingDesignatedInitializers public class Luts {
   @objc deinit
@@ -280,6 +290,10 @@ public struct DrawTextures {
   public var second_fragState: Metal.MTLRenderPipelineState
   @objc deinit
 }
+public struct RetouchHistoryItem {
+  public var texture: Metal.MTLTexture!
+  public var type: MKDevice.RetouchToolType!
+}
 public struct RetouchTool {
   public var debugMode: Swift.Bool
   public var currentTool: MKDevice.RetouchToolType {
@@ -296,6 +310,7 @@ public struct RetouchTool {
   public var drawTextures_whiten: Metal.MTLTexture!
   public var drawTextures_sharpen: Metal.MTLTexture!
   public var drawTextures_eyecolor: Metal.MTLTexture!
+  public var history: [MKDevice.RetouchHistoryItem]
   public var mtlDrawTextures: [MKDevice.DrawTextures]
   public var id: Swift.Int {
     get
