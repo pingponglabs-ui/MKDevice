@@ -160,6 +160,7 @@ public class PhotoEditorTools : Foundation.ObservableObject {
     set(newVal)
   }
   public func undo()
+  public func saveMainStep()
   public func redo()
   public func saveStep()
   public func undoRetouch()
@@ -168,6 +169,7 @@ public class PhotoEditorTools : Foundation.ObservableObject {
   public func saveManualStep()
   public func undoManual()
   public func redoManual()
+  public func resetAll()
   public func setImage(uiimage: UIKit.UIImage)
   public func exportUIImage(_ comp: (UIKit.UIImage) -> Swift.Void)
   public func exportCIImage(_ comp: (CoreImage.CIImage) -> Swift.Void)
@@ -419,7 +421,7 @@ public enum BackgroundColors : Swift.String, Swift.CaseIterable {
   }
 }
 public enum MainTools : Swift.String, Swift.CaseIterable {
-  case manual, body, retouch, forms, filters, adjust, text, background
+  case manual, body, retouch, forms, filters, adjust, text, background, main
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MKDevice.MainTools]
   public typealias RawValue = Swift.String
